@@ -4,7 +4,7 @@
 ![lastCommit](https://img.shields.io/github/last-commit/reservedbytes/proxyscraper)
 ![license](https://img.shields.io/github/license/reservedbytes/proxyscraper)
 
-Golang program designed to scrape both HTTP and SOCKS proxy information from the web and save them for your own use.
+Golang script designed to scrape both HTTP and SOCKS proxy information from publicly available sources and saves them for your own use.
 
 ## Features
 - Retrieves a list of HTTP proxies from [free-proxy-list.net](http://free-proxy-list.net/) and saves them to "http.txt".
