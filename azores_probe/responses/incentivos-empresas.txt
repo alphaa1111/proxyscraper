@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>DREC: BalcÃ£o dos Sistemas de Incentivos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="./Competir+/css/lp.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+<body>
+  <div class="container">
+    <div class="login">
+      <h1 style="background-color:#1F305F;border-bottom: 3px solid #fab41a;">DireÃ§Ã£o Regional do<br> Empreendedorismo e Competitividade</h1>
+	  
+		<h2></h2>
+		<p style="padding-bottom:15px;"id="tip">Selecione para aceder Ã  Ã¡rea de acompanhamento das suas candidaturas:</p>
+	<form action="./Competir+/Geral/acesso-bcmais.php">
+		<p class="submit"><input type="submit" value="Acesso BeneficiÃ¡rio *"></p>
+	</form></br>
+	<form action="./Competir+/Geral/acesso-bcmais-cc.php">
+		<p class="submit"><input type="submit" value="Acesso Contabilista Certificado *"></p>
+	</form></br>
+	<form action="./CompetirMais/Geral/acesso-bcmais-acrd.php">
+		<p class="submit"><input type="submit" value="Acesso Empresa Acreditada *"></p>
+	</form></br>
+	<form action="./Competir+/">
+		<p class="submit"><input type="submit" value="BalcÃ£o COMPETIR+"></p>
+	</form></br>
+	<form action="./e-sider/">
+		<p class="submit"><input type="submit" value="BalcÃ£o SIDER"></p>
+	</form></br>
+	<form action="./Competir+/Geral/acesso-bcmais-riae.php">
+		<p class="submit"><input type="submit" value="Acesso reservado RIAE *"></p>
+	</form>
+	<p id="tip" style="font-size:x-small;">* - SerÃ£o solicitadas as suas credenciais do BalcÃ£o dos Fundos.</p>	
+    </div>
+	   <div class="login-help">
+      <p>Telefone: (+351) 296 309 100 â E-mail: <a href="/cdn-cgi/l/email-protection#b7d3c5d2d4f7d6cdd8c5d2c499d0d8c199c7c3"><span class="__cf_email__" data-cfemail="9cf8eef9ffdcfde6f3eef9efb2fbf3eab2ece8">[email&#160;protected]</span></a></br>Website:  <a href="https://portal.azores.gov.pt/web/drec">https://portal.azores.gov.pt/web/drec</a> </br> Rua de SÃ£o JoÃ£o, n.Âº 55 â 9500-107 Ponta Delgada</p>
+    </div>
+  </div>
+ 	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4464c46330544cae8e8fa2ade95aef55","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>	
+</html>

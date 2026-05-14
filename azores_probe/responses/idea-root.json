@@ -1,0 +1,80 @@
+{
+  "links": [
+    {
+      "rel": "about",
+      "type": "text/html",
+      "title": "Dados Geográficos - Secretaria Regional do Ambiente e Ação Climática / Governo dos Açores",
+      "href": "https://github.com/geopython/pygeoapi"
+    },
+    {
+      "rel": "self",
+      "type": "application/json",
+      "title": "This document as JSON",
+      "href": "https://ambiente.azores.gov.pt/idea-api?f=json"
+    },
+    {
+      "rel": "alternate",
+      "type": "application/ld+json",
+      "title": "This document as RDF (JSON-LD)",
+      "href": "https://ambiente.azores.gov.pt/idea-api?f=jsonld"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "This document as HTML",
+      "href": "https://ambiente.azores.gov.pt/idea-api?f=html",
+      "hreflang": "pt-PT"
+    },
+    {
+      "rel": "service-desc",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "title": "The OpenAPI definition as JSON",
+      "href": "https://ambiente.azores.gov.pt/idea-api/openapi"
+    },
+    {
+      "rel": "service-doc",
+      "type": "text/html",
+      "title": "The OpenAPI definition as HTML",
+      "href": "https://ambiente.azores.gov.pt/idea-api/openapi?f=html",
+      "hreflang": "pt-PT"
+    },
+    {
+      "rel": "conformance",
+      "type": "application/json",
+      "title": "Conformance",
+      "href": "https://ambiente.azores.gov.pt/idea-api/conformance"
+    },
+    {
+      "rel": "data",
+      "type": "application/json",
+      "title": "Collections",
+      "href": "https://ambiente.azores.gov.pt/idea-api/collections"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/processes",
+      "type": "application/json",
+      "title": "Processes",
+      "href": "https://ambiente.azores.gov.pt/idea-api/processes"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/job-list",
+      "type": "application/json",
+      "title": "Jobs",
+      "href": "https://ambiente.azores.gov.pt/idea-api/jobs"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/tiling-schemes",
+      "type": "application/json",
+      "title": "The list of supported tiling schemes as JSON",
+      "href": "https://ambiente.azores.gov.pt/idea-api/TileMatrixSets?f=json"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/tiling-schemes",
+      "type": "text/html",
+      "title": "The list of supported tiling schemes as HTML",
+      "href": "https://ambiente.azores.gov.pt/idea-api/TileMatrixSets?f=html"
+    }
+  ],
+  "title": "Dados Geográficos - Secretaria Regional do Ambiente e Ação Climática / Governo dos Açores",
+  "description": "Acesso aos Dados Geográficos através da API"
+}

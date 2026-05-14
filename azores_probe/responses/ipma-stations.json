@@ -1,0 +1,3110 @@
+[
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.821,
+        37.033
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210881,
+      "localEstacao": "Olhão, EPPO"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.62050375,
+        37.12166968
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210883,
+      "localEstacao": "Tavira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.05417,
+        39.21536
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6210817,
+      "localEstacao": "Ponte de Sôr / Aeródromo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.0038,
+        39.0672
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217430,
+      "localEstacao": "Graciosa / Serra das Fontes (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.31808611,
+        41.70225278
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212121,
+      "localEstacao": "Terras de Bouro/Barral (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.37977778,
+        41.66796389
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212122,
+      "localEstacao": "Amares Caldelas (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -31.2647,
+        39.45328
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210907,
+      "localEstacao": "Faja / Ilha das Flores"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.42514722,
+        41.53568333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212124,
+      "localEstacao": "Braga (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.62705278,
+        41.529375
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212125,
+      "localEstacao": "Barcelos (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.77984444,
+        41.52645556
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212126,
+      "localEstacao": "Esposende (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.03693333,
+        40.33918056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210800,
+      "localEstacao": "Sabugal, Martim Rei"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.82916,
+        41.695
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240610,
+      "localEstacao": "Viana do Castelo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.83693333,
+        40.56577222
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213015,
+      "localEstacao": "Nelas / Vilar Seco (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.0917,
+        36.9542
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217160,
+      "localEstacao": "Santa Maria / Praia Formosa (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.150108,
+        37.83256
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210932,
+      "localEstacao": "S. Miguel, Nordeste"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.20133889,
+        40.716925
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213016,
+      "localEstacao": "Oliveira de Frades (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.89066111,
+        38.54846667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240929,
+      "localEstacao": "Setúbal, Areias"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.171373,
+        32.867477
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210956,
+      "localEstacao": "Madeira, Porto Moniz"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.198685,
+        40.280921
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213617,
+      "localEstacao": "Penacova / Hombres (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.0176,
+        36.9412
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217165,
+      "localEstacao": "Santa Maria / Maia (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.906219,
+        32.83446944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210960,
+      "localEstacao": "Madeira, S. Jorge, Santana"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.8864166,
+        32.808238
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210965,
+      "localEstacao": "Madeira, Santana"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.044722,
+        32.8001833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210967,
+      "localEstacao": "Madeira, São Vicente"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.0576888,
+        32.75646944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210970,
+      "localEstacao": "Madeira, Bica da Cana"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.903955,
+        32.693491
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210972,
+      "localEstacao": "Madeira, Pico Alto"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.91666667,
+        32.71666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210973,
+      "localEstacao": "Madeira, Areeiro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.928271,
+        32.735107
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210974,
+      "localEstacao": "Madeira, Pico do Areeiro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.816822,
+        32.7258972
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210975,
+      "localEstacao": "Madeira, Santo da Serra"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.906944,
+        32.675833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210976,
+      "localEstacao": "Madeira, Monte"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.86575,
+        32.64500556
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210977,
+      "localEstacao": "Madeira, Cancela"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.706,
+        32.747
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210978,
+      "localEstacao": "Madeira, S. Lourenço"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.9039694,
+        40.662738
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240675,
+      "localEstacao": "Viseu (Cidade)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.202,
+        32.831
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210980,
+      "localEstacao": "Madeira, Lombo da Terça"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.0591,
+        38.6435
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217510,
+      "localEstacao": "São Jorge / Pico do Areeiro (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.01503611,
+        32.6629722
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210984,
+      "localEstacao": "Madeira, Quinta Grande"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.104167,
+        32.681502
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210986,
+      "localEstacao": "Ponta do Sol/Lugar de Baixo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.201551,
+        32.757205
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210987,
+      "localEstacao": "Prazeres (Calheta)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -17.26321389,
+        32.81384167
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210990,
+      "localEstacao": "Madeira, Calheta"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.815306,
+        41.745722
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211217,
+      "localEstacao": "Viana Do Castelo - Fonte Louçã (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.1141,
+        38.4338
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217645,
+      "localEstacao": "Pico / Cabecinho (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.7825,
+        38.7627
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 5210758,
+      "localEstacao": "Alcochete / Campo Tiro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.4388429,
+        40.373343
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213615,
+      "localEstacao": "Mealhada / Quinta do Vale (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.421872,
+        42.042944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211211,
+      "localEstacao": "Monção - Guimil (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.711917,
+        41.920056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211212,
+      "localEstacao": "Vila Nova De Cerveira- Alto Pena (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.492111,
+        41.913444
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211213,
+      "localEstacao": "Paredes De Coura - Vascões (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.192542,
+        41.872525
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211214,
+      "localEstacao": "Ponte Da Barca - Lindoso (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.715642,
+        41.847817
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211215,
+      "localEstacao": "Caminha - Agra De Baixo (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.44375,
+        41.831
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211216,
+      "localEstacao": "Arcos De Valdevez - Heliporto (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.662283,
+        37.7464
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210513,
+      "localEstacao": "P. Delgada (Obs. A. Chaves)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.522444,
+        41.698083
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6211218,
+      "localEstacao": "Ponte De Lima - Anais (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -31.2207,
+        39.4633
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210517,
+      "localEstacao": "Flores / Morro Alto"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.7512,
+        37.819
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210518,
+      "localEstacao": "São Miguel - Pico Santos De Cima"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -15.869153,
+        30.140595
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210520,
+      "localEstacao": "Ilhas selvagens"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.43398056,
+        41.64686111
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212123,
+      "localEstacao": "Vila Verde (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.232142,
+        40.426239
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213616,
+      "localEstacao": "Mortágua / Aeródromo (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.4,
+        39.07101
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210550,
+      "localEstacao": "Coruche / Cruz Do Leão"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.9534,
+        37.3042
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210553,
+      "localEstacao": "Loulé / Cavalos De Caldeirão"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.2939255,
+        38.7239536
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6215360,
+      "localEstacao": "Oeiras / Vila Fria (CMO)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.17904215,
+        40.09328521
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1259201,
+      "localEstacao": "Lousã/Trevim"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.20484533,
+        40.08090803
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1259202,
+      "localEstacao": "Lousã/Candal"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.68614846,
+        40.45517056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1259203,
+      "localEstacao": "Seia/Aeródromo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.673406,
+        40.412775
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1259204,
+      "localEstacao": "Seia/Senhora do Espinheiro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.8916,
+        38.5296
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200843,
+      "localEstacao": "Évora (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.72899167,
+        37.54710833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210577,
+      "localEstacao": "Odemira, S.Teotónio"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.400398,
+        38.781669
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210752,
+      "localEstacao": "Sintra/Tapada do Mouco"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.1254,
+        38.7618
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210580,
+      "localEstacao": "Lisboa, Relógio"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.1649,
+        38.7239
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 7240919,
+      "localEstacao": "Lisboa, Amoreiras (LFCL)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.20829722,
+        40.54575278
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213021,
+      "localEstacao": "Tondela, Caramulinho (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.3534,
+        38.489
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217625,
+      "localEstacao": "Pico / Cabeço do Teicho (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.3790388,
+        39.12594166
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210746,
+      "localEstacao": "Santa Cruz (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.46,
+        38.8126
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210747,
+      "localEstacao": "Sintra, Colares"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.66676111,
+        41.96673056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210604,
+      "localEstacao": "V.N.Cerveira (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.383347,
+        42.06669
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210605,
+      "localEstacao": "Monção, Valinha"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.18333333,
+        42.03333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210606,
+      "localEstacao": "Lamas de Mouro, P.Ribeiro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.78797778,
+        41.82276667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210611,
+      "localEstacao": "Montalegre"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.0034416,
+        41.8434
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210612,
+      "localEstacao": "Vinhais"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.4975361,
+        38.78171
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210750,
+      "localEstacao": "Cabo da Roca"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.56671389,
+        41.75013889
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210615,
+      "localEstacao": "Ponte de Lima"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.46540833,
+        41.72516667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210616,
+      "localEstacao": "Chaves (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.01666667,
+        41.71666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210619,
+      "localEstacao": "Cabril"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.45003056,
+        41.56678056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210622,
+      "localEstacao": "Braga, Merelim"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.241995,
+        40.211411
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213619,
+      "localEstacao": "Vila Nova de Poiares (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.3178,
+        41.4289
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210625,
+      "localEstacao": "Guimarães"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.96666667,
+        41.53333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210630,
+      "localEstacao": "Cabeceiras de Basto"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.19083889,
+        41.51478611
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210632,
+      "localEstacao": "Mirandela"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.78333333,
+        41.56666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210633,
+      "localEstacao": "Macedo Cavaleiros, Bagueixe"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.28333333,
+        41.51666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210635,
+      "localEstacao": "Miranda do Douro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.73333333,
+        41.33333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210637,
+      "localEstacao": "Mogadouro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.38012,
+        41.27365
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210643,
+      "localEstacao": "Paços Ferreira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.28333333,
+        41.23333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210644,
+      "localEstacao": "Carrazêda de Ansiães"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.05106389,
+        40.64405556
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213023,
+      "localEstacao": "Vouzela (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.64445,
+        41.18445
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210649,
+      "localEstacao": "S. Gens"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.7576,
+        38.5843
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217730,
+      "localEstacao": "Faial / Cabeço Verde (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.01666667,
+        41.18333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210654,
+      "localEstacao": "Moncorvo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.5489722,
+        41.172775
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210655,
+      "localEstacao": "Pinhão, Santa Bárbara"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.2490333,
+        41.14585
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210657,
+      "localEstacao": "Luzim"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.6434,
+        40.97374
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210659,
+      "localEstacao": "Espinho/Aeródromo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.1855,
+        38.7751
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6215302,
+      "localEstacao": "Lisboa, Carnide (CML)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.6,
+        40.98333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210663,
+      "localEstacao": "Moimenta da Beira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.2569,
+        40.9689
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210665,
+      "localEstacao": "Mêda"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.36666667,
+        40.78333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210666,
+      "localEstacao": "Trancoso, Bandarra"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.25,
+        40.93333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210669,
+      "localEstacao": "Arouca"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.6992,
+        38.587
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217710,
+      "localEstacao": "Faial / Alto do Cabouco (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.88333333,
+        40.75
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210671,
+      "localEstacao": "F. Castelo Rodrigo, V.Torpim"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.06523593,
+        37.129946
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6210872,
+      "localEstacao": "Loulé (CML)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.52185,
+        41.3882
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6212410,
+      "localEstacao": "Vila Nova Famalicão (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.26666667,
+        40.53333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210683,
+      "localEstacao": "Guarda"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.85,
+        40.51666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210685,
+      "localEstacao": "Nelas"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.92704,
+        40.145653
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210686,
+      "localEstacao": "Pampilhosa da Serra, Fajão"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.482302,
+        40.264309
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210687,
+      "localEstacao": "Covilhã (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.5618,
+        37.8049
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217217,
+      "localEstacao": "São Miguel / Santana (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.38931111,
+        40.35425833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210690,
+      "localEstacao": "Aldeia Souto (Q. Lageosa)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.62598,
+        41.15257
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240903,
+      "localEstacao": "Porto, Massarelos"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.212804,
+        38.617111
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210773,
+      "localEstacao": "Almada, P.Rainha"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.244066,
+        40.143922
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210697,
+      "localEstacao": "Lousã (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.55362778,
+        40.14063611
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210698,
+      "localEstacao": "Fundão"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.65958333,
+        40.63529722
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210702,
+      "localEstacao": "Aveiro (Universidade)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.76168055,
+        40.445955
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210704,
+      "localEstacao": "Dunas de Mira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.439996,
+        40.438852
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210705,
+      "localEstacao": "Anadia"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.45515277,
+        40.2134694
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210707,
+      "localEstacao": "Coimbra, Bencanta"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.810466,
+        39.744764
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240916,
+      "localEstacao": "Leiria"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.805945,
+        40.139764
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210713,
+      "localEstacao": "Figueira da Foz, Vila Verde"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.4,
+        39.9
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210716,
+      "localEstacao": "Ansião"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.818166,
+        39.780553
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210718,
+      "localEstacao": "Leiria (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.03058889,
+        39.76361944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210721,
+      "localEstacao": "São Pedro de Moel"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.6489,
+        39.6217
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210723,
+      "localEstacao": "Ourém / Fátima"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.36666667,
+        39.6
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210724,
+      "localEstacao": "Tomar, Valdonas"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.96666667,
+        39.51666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210726,
+      "localEstacao": "Alcobaça"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.24244,
+        38.757579
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240935,
+      "localEstacao": "Amadora"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.93333333,
+        39.35
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210729,
+      "localEstacao": "Rio Maior"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.736656,
+        39.201216
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210734,
+      "localEstacao": "Santarém, Fonte Boa"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.3508,
+        39.27
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210735,
+      "localEstacao": "Chamusca / Chouto"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.179,
+        39.04389444
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210739,
+      "localEstacao": "Torres Vedras, Dois Portos"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -31.1301,
+        39.45819
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200501,
+      "localEstacao": "Flores (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -31.11362,
+        39.67389
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200502,
+      "localEstacao": "Corvo (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.44137,
+        38.55219
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200504,
+      "localEstacao": "Pico (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.7128,
+        38.5211
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200505,
+      "localEstacao": "Horta / Aeroporto"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.63225,
+        38.540781
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200506,
+      "localEstacao": "Horta (Obs. Principe Alberto)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.02852,
+        39.09036
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200507,
+      "localEstacao": "Graciosa (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -28.17,
+        38.66
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200510,
+      "localEstacao": "São Jorge"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -27.216567,
+        38.6659435
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200511,
+      "localEstacao": "Angra do Heroísmo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.6953048,
+        37.74414
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200512,
+      "localEstacao": "P. Delgada (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.1679,
+        36.967175
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200515,
+      "localEstacao": "Santa Maria (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.77612,
+        32.69688
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200521,
+      "localEstacao": "Santa Catarina (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.888,
+        32.64786
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200522,
+      "localEstacao": "Funchal"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.935592,
+        32.63655
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240971,
+      "localEstacao": "Madeira, Funchal, Lido"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -16.34868,
+        33.074029
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200524,
+      "localEstacao": "Porto Santo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.48538333,
+        38.70900833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210765,
+      "localEstacao": "Cabo Raso"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.04766111,
+        38.67448611
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210766,
+      "localEstacao": "Barreiro, Lavradio"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.63503,
+        38.65079
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210767,
+      "localEstacao": "Pegões"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.52946314,
+        37.11670461
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6210879,
+      "localEstacao": "Portimão (Praia da Rocha)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.89077058,
+        38.54846008
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210770,
+      "localEstacao": "Setúbal"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.40737778,
+        39.38
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200531,
+      "localEstacao": "Cabo Carvoeiro"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.92626389,
+        40.46718056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213012,
+      "localEstacao": "Carregal do Sal (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.949089,
+        37.012835
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200533,
+      "localEstacao": "Sagres"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.60838889,
+        40.61096111
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213014,
+      "localEstacao": "Mangualde / Chãs de Tavares  (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.14972222,
+        38.71907778
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200535,
+      "localEstacao": "Lisboa (Geofísico)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.48333333,
+        38.36666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210776,
+      "localEstacao": "Alcácer do Sal, Barrosinha"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.69655278,
+        40.65706389
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213017,
+      "localEstacao": "Penalva do Castelo (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.11568056,
+        40.83031944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213018,
+      "localEstacao": "São Pedro do Sul (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.13996389,
+        40.39644722
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213019,
+      "localEstacao": "Santa Comba Dão (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.72019722,
+        40.76072778
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213020,
+      "localEstacao": "Satão (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.838271,
+        37.954504
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200541,
+      "localEstacao": "Sines"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.72716389,
+        40.85595
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213022,
+      "localEstacao": "Vila Nova de Paiva (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.394504,
+        37.946806
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210783,
+      "localEstacao": "Alvalade"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.13344167,
+        40.67424167
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213024,
+      "localEstacao": "Viseu / Torredeita (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.681332,
+        41.233502
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200545,
+      "localEstacao": "Porto, Pedras Rubras (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.46669167,
+        40.15006944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200548,
+      "localEstacao": "Coimbra (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.80001667,
+        37.31675278
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210789,
+      "localEstacao": "Aljezur"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.595733,
+        37.3143
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210790,
+      "localEstacao": "Fóia"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.804606,
+        41.648875
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200551,
+      "localEstacao": "Viana Castelo, Chafé"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.971953,
+        37.016579
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200554,
+      "localEstacao": "Faro (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.53371944,
+        40.81203611
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213011,
+      "localEstacao": "Aguiar da Beira (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.334616,
+        40.028817
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213618,
+      "localEstacao": "Penela / Serra do Espinhal (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.88338056,
+        38.53336389
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200558,
+      "localEstacao": "Évora (C.Coordenação)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.887472,
+        40.72645
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200559,
+      "localEstacao": "Viseu (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.89592222,
+        40.71492222
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200560,
+      "localEstacao": "Viseu (C.Coordenação)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.867275,
+        38.02493056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200562,
+      "localEstacao": "Beja"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.01666667,
+        39.86666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210803,
+      "localEstacao": "Zebreira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.86666667,
+        39.73333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210806,
+      "localEstacao": "Proença-a-Nova, P.Moitas"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.7171,
+        41.27418611
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200567,
+      "localEstacao": "Vila Real"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.55865278,
+        40.41136667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200568,
+      "localEstacao": "Penhas Douradas"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.42088333,
+        39.2675444
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240820,
+      "localEstacao": "Portalegre (cidade)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.46678889,
+        39.83339444
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200570,
+      "localEstacao": "Castelo Branco"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.41996944,
+        39.29546944
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200571,
+      "localEstacao": "Portalegre"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.05,
+        39.46666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210812,
+      "localEstacao": "Alvega"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.74283889,
+        41.80388889
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200575,
+      "localEstacao": "Bragança"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -6.70796389,
+        41.85763611
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1200576,
+      "localEstacao": "Bragança (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.3019,
+        37.5025
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210785,
+      "localEstacao": "Ourique / Santana Da Serra"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.86666667,
+        39.1
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210824,
+      "localEstacao": "Avis, Benavila"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.16406,
+        38.94068
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210826,
+      "localEstacao": "Mora"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.13976111,
+        38.8908
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210835,
+      "localEstacao": "Elvas"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.51666667,
+        38.86666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210837,
+      "localEstacao": "Estremoz"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.4729166,
+        38.484866
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210840,
+      "localEstacao": "Reguengos, S. P. do Corval"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.74286944,
+        37.58195833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210788,
+      "localEstacao": "Zambujeira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -27.3245,
+        38.754
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217370,
+      "localEstacao": "Terceira / Ribeira das Nove (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.504909,
+        40.02927
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213621,
+      "localEstacao": "Soure (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -27.1031,
+        38.7002
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217372,
+      "localEstacao": "Terceira / Serra do Cume (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.1991,
+        38.6451
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210846,
+      "localEstacao": "Montemor-O-Novo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.04553888,
+        38.3319194
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210847,
+      "localEstacao": "Viana do Alentejo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.86666667,
+        38.31666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210848,
+      "localEstacao": "Portel, Oriola"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.51073611,
+        38.94096667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210744,
+      "localEstacao": "Coruche"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.6025,
+        41.1385194
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240546,
+      "localEstacao": "Porto, Serra do Pilar"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.2261,
+        38.2007
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210851,
+      "localEstacao": "Amareleja"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.150912,
+        39.926573
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6214119,
+      "localEstacao": "Pedrógão Grande (CMPG)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.88318889,
+        40.98086111
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213013,
+      "localEstacao": "Castro Daire / Mézio (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.974399,
+        40.274578
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213611,
+      "localEstacao": "Arganil / Aeródromo (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.577613,
+        40.341894
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213612,
+      "localEstacao": "Cantanhede / Fonte Dom Pedro (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.374887,
+        40.330787
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213613,
+      "localEstacao": "Coimbra / Mata de São Pedro (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.103238,
+        40.171642
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213614,
+      "localEstacao": "Góis / Quinta da Ribeira (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.55,
+        37.75
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210863,
+      "localEstacao": "Mértola, Vale Formoso"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.97211389,
+        37.57655833
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210864,
+      "localEstacao": "Castro Verde, N.Corvo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.76666667,
+        37.43333333
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210865,
+      "localEstacao": "Alcoutim, Mart.Longo"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.416325,
+        37.1871055
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210866,
+      "localEstacao": "Vila Real de S.António"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.45,
+        37.21666667
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210867,
+      "localEstacao": "Castro Marim (RN Sapal)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.867972,
+        40.413306
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 6213620,
+      "localEstacao": "Oliveira do Hospital (CIM)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.581389,
+        37.149167
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210878,
+      "localEstacao": "Portimão (Aeródromo)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -7.740522,
+        41.30898056
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1240566,
+      "localEstacao": "Vila Real (Cidade)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.3291,
+        37.7619
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217255,
+      "localEstacao": "São Miguel / Lagoa das Furnas (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -8.262,
+        37.0935
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210874,
+      "localEstacao": "Albufeira"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -25.772,
+        37.8679
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 11217225,
+      "localEstacao": "São Miguel / Sete Cidades (DROTRH)"
+    }
+  },
+  {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -9.182825,
+        38.70956111
+      ]
+    },
+    "type": "Feature",
+    "properties": {
+      "idEstacao": 1210762,
+      "localEstacao": "Lisboa, Tapada da Ajuda"
+    }
+  }
+]

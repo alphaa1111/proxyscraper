@@ -1,0 +1,496 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parques Naturais dos Açores</title>
+
+    <link rel="stylesheet" href="/static/css/destyle.css">
+    <link rel="stylesheet" href="/static/fonts/gilroy/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/js/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="05a12955dc1ba8013d7a40cc-text/javascript"></script>
+    <script src="/static/js/owl.carousel.min.js" type="05a12955dc1ba8013d7a40cc-text/javascript"></script>
+    <script src="/static/js/fslightbox.js" type="05a12955dc1ba8013d7a40cc-text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLJXY9M4J2" type="05a12955dc1ba8013d7a40cc-text/javascript"></script>
+    <script type="05a12955dc1ba8013d7a40cc-text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CLJXY9M4J2');
+    </script>
+</head>
+<body>
+
+    <img src="/static/img/menu.svg" alt="menu" class="btn-menu">
+	<img src="/static/img/sraac.svg" alt="logo" class="logo-top-mobile" style="width: 76%;">
+    <nav class="nav-principal">
+        <div class="barra-topo">
+            <div class="container">
+                <a href="#conteudo" class="saltar-conteudo">saltar para o conteúdo</a>
+                <div class="idioma">
+                    definir idioma:
+                    <a href="/pt" class="selecionado">PT</a>
+                    <a href="/en">EN</a>
+                </div>
+            </div>
+        </div>
+        <div class="barra-menu">
+            <img src="/static/img/close.svg" alt="fechar menu" class="close-btn">
+            <div class="container">
+                <a href="/pt/" class="logo-home"><img src="/static/img/sraac.svg" alt="Parques Naturais dos Açores" class="logo" style="max-width: 300px;" ></a>
+                <div class="links-principais">
+                    <a href="/pt/areasprotegidas">Áreas</a>
+                    <a href="/pt/centros">Centros</a>
+                    <a href="/pt/trilhos">Trilhos</a>
+                    <a href="/pt/roteiros/">Roteiros</a>
+                    <a href="/pt/pois">Pontos de Interesse</a>
+                    <a href="/pt/guia/">Guia de Campo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <header class="top-site" style="background-image: url('/media/cache/bd/2b/bd2b25f08ef7c5681caa281f34b9018c.jpg')">
+    
+    
+</header>
+    <div id="conteudo"></div>
+
+
+
+    <main>
+        <div class="container">
+            <header class="header-conteudo">            
+
+           <div class="breadcrums">
+                <nav aria-label="Breadcrumb" class="breadcrums">
+                    <ol>
+                        <li><a href="/pt/">Home </a></li>
+
+                    </ol>
+                </nav>
+            </div>
+           <div class="tamanho-texto">
+    <p>tamanho do texto:</p>
+    <button class="btn texto-normal accionado" aria-label="Tamanho do texto normal">A</button>
+    <button class=" btn texto-aumentado" aria-label="Aumentar o tamanho texto">A</button>
+</div>
+
+
+<script type="05a12955dc1ba8013d7a40cc-text/javascript">
+    $(document).ready(function(){
+       $('.btn.texto-aumentado').click(function(e){
+           e.preventDefault();
+           $(this).addClass('accionado');
+           $('.btn.texto-normal').removeClass('accionado');
+           $('p').css('font-size','2em');
+       });
+
+       $('.btn.texto-normal').click(function(e){
+           e.preventDefault();
+           $(this).addClass('accionado');
+           $('.btn.texto-aumentado').removeClass('accionado');
+           $('p').css('font-size','1em');
+       });
+
+    });
+
+
+</script>
+
+            </header>
+
+            <section class="atalhos">
+                <ul>
+                    
+                        
+                            <li><a   href="/pt/eventos" ><img src="/media/social_media_icons/None/atalho-agenda.svg" alt="ícone" class="ico-atalho">Agenda</a></li>
+                        
+                    
+                        
+                            <li><a   href="http://educarparaoambiente.azores.gov.pt/" target="_blank" ><img src="/media/social_media_icons/2/atalho-epas_aHsV8ui.svg" alt="ícone" class="ico-atalho">Educar para o Ambiente</a></li>
+                        
+                    
+                        
+                            <li><a   href="http://educarparaoambiente.azores.gov.pt/VigilanteJunior.aspx" target="_blank" ><img src="/media/social_media_icons/None/atalho-vigilantes.svg" alt="ícone" class="ico-atalho">Vigilante da Natureza Júnior</a></li>
+                        
+                    
+                        
+                            <li><a   href="https://servicos-sraa.azores.gov.pt/doit/servicos.asp?id_dep=3&amp;id_form=68" target="_blank" ><img src="/media/social_media_icons/8/icone_amigo_prancheta-1.svg" alt="ícone" class="ico-atalho">Amigo da Natureza</a></li>
+                        
+                    
+                        
+                            <li><a href="/bilheteira/?lang=pt"><img src="/media/social_media_icons/4/atalho-bilhetes.svg" alt="ícone" class="ico-atalho">Bilheteira</a></li>
+                        
+                    
+
+
+
+
+                </ul>
+            </section>
+
+
+            <section class="conteudo-principal">
+                
+
+                <h1 class="titulo-principal">Destaques</h1>
+                <div class="slider">
+                    <div class="owl-carousel">
+                        
+                            <div class="slide">
+                                
+                                    <img src="/media/cache/9e/44/9e4452098623ec7f61487b8e8e897d0f.jpg" alt="imagem do slide">
+                                
+                                <div class="info-slide">
+                                    <h1>Programa Amigo da Natureza</h1>
+                                    
+                                        <a href="https://servicos-sraa.azores.gov.pt/doit/servicos.asp?id_dep=3&amp;id_form=68"  target="_blank" >ver mais</a>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+
+                    <div class="slider-nav">
+                        <button class="prev"><img src="/static/img/prev.svg" alt="slide anterior"></button>
+                        <button class="next"><img src="/static/img/next.svg" alt="slide seguinte"></button>
+                    </div>
+                </div>
+
+                <h1 class="titulo-principal">Notícias</h1>
+                    
+                    <div class="elemento noticia">
+                        <div class="foto">
+                            
+                                <img src="/media/cache/13/74/1374161d41a9cad506defab69c3303b1.jpg" alt="Já conhece os resultados do projeto LIFE BEETLES?" style="width: 341px;height: 341px;">
+                            
+                        </div>
+
+                        <h1 class="titulo-noticia">Já conhece os resultados do projeto LIFE BEETLES?</h1>
+                        <small style="width: 100%;display: block;margin-top: -8px;margin-bottom: 10px; color:#358433">12 de Maio de 2026</small>
+
+                        <p>Para dar a conhecer ao p&uacute;blico o impacto deste projeto dedicado &agrave; conserva&ccedil;&atilde;o da biodiversidade, foi criado um …</p>
+                        <a href="/pt/noticias/1489">ver mais</a>
+                    </div>
+                    
+                    <div class="elemento noticia">
+                        <div class="foto">
+                            
+                                <img src="/media/cache/4d/05/4d05474116471025ae02d7480dec9de5.jpg" alt="LIFE INFO DAY PT 2026" style="width: 341px;height: 341px;">
+                            
+                        </div>
+
+                        <h1 class="titulo-noticia">LIFE INFO DAY PT 2026</h1>
+                        <small style="width: 100%;display: block;margin-top: -8px;margin-bottom: 10px; color:#358433">12 de Maio de 2026</small>
+
+                        <p>O <strong>LIFE INFO DAY PT 2026</strong> realizar-se-&aacute; nos pr&oacute;ximos dias <strong>13, 14 e 15 de maio</strong>. Poder&aacute; …</p>
+                        <a href="/pt/noticias/1487">ver mais</a>
+                    </div>
+                    
+                    <div class="elemento noticia">
+                        <div class="foto">
+                            
+                                <img src="/media/cache/d4/79/d479665a553b3643411b279d34f4415a.jpg" alt="Sessão lúdica com a Academia Sénior da Santa Casa da Misericórdia" style="width: 341px;height: 341px;">
+                            
+                        </div>
+
+                        <h1 class="titulo-noticia">Sessão lúdica com a Academia Sénior da Santa Casa da Misericórdia</h1>
+                        <small style="width: 100%;display: block;margin-top: -8px;margin-bottom: 10px; color:#358433">12 de Maio de 2026</small>
+
+                        <p><span style="background-color:white">No passado m&ecirc;s de mar&ccedil;o, o projeto LIFE SNAILS, coordenado pela Secretaria Regional do Ambiente e A&ccedil;&atilde;o Clim&aacute;tica, …</span></p>
+                        <a href="/pt/noticias/1488">ver mais</a>
+                    </div>
+                    
+            
+                <a class="mais-noticias" href="/pt/noticias/">mais noticias</a>
+            
+            <h1 class="titulo-principal">Parques Naturais dos Açores</h1>
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/95/99/9599d54c3515bd61895c37c4966402ce.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural das Flores</h1>
+                                <a href="/pt/parques/4" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/54/3f/543f20344c95fc13d8303dad2c4c55b3.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural do Corvo</h1>
+                                <a href="/pt/parques/1" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/e0/cc/e0cc515828b44633d8b1da4ee43a4663.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural do Faial</h1>
+                                <a href="/pt/parques/3" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/bd/ca/bdca11b7171104f5f8b06044be159506.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural do Pico</h1>
+                                <a href="/pt/parques/5" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/10/9f/109f5042997962944d244e9fe25b53c9.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural de São Jorge</h1>
+                                <a href="/pt/parques/6" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/6f/f7/6ff7b6484a92093383a9babb95ae543c.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural da Graciosa</h1>
+                                <a href="/pt/parques/7" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/69/ff/69ff194203a6f51ecf7b944166576e9b.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural da Terceira</h1>
+                                <a href="/pt/parques/8" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/3d/4f/3d4f8a4e4027bf1f082bb30191c4272b.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural de São Miguel</h1>
+                                <a href="/pt/parques/9" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+                    
+                        <div class="elemento item" style="background-image: url(/media/cache/cb/12/cb12b7445f15377dd14899f6b0edc2d2.jpg);">
+                            <div class="barra-mais">
+                                <h1 class="nome-parque">Parque Natural de Santa Maria</h1>
+                                <a href="/pt/parques/2" class="mais-botao">Saber mais</a>
+                            </div>
+                        </div>
+                    
+
+                
+
+                    <h1 class="titulo-principal">Conservação da Natureza</h1>
+                    <div class="conservacao">
+
+                        
+
+                        <a href="https://ambiente.azores.gov.pt/lifevidalia"  target="_blank" >
+                            
+                                <img src="/media/cache/01/e1/01e1bc745aab3bd99c6992472a22becc.jpg" alt="logo-conserv" class="logo-conserv">
+                            
+                            LIFE VIDALIA
+                        </a>
+
+                        
+
+                        <a href="https://www.lifeazoresnatura.eu/"  target="_blank" >
+                            
+                                <img src="/media/cache/37/2a/372a5955b933423b82f67ca558e51fa8.jpg" alt="logo-conserv" class="logo-conserv">
+                            
+                            LIFE IP AZORES NATURA
+                        </a>
+
+                        
+
+                        <a href="https://www.lifebeetlesazores.com/"  target="_blank" >
+                            
+                                <img src="/media/cache/42/32/4232874cfc82b785928d22c0adb95021.jpg" alt="logo-conserv" class="logo-conserv">
+                            
+                            LIFE BEETLES
+                        </a>
+
+                        
+
+                        <a href="https://www.lifeipclimaz.com"  target="_blank" >
+                            
+                                <img src="/media/cache/f0/c5/f0c501ca9c3d99237600c0278b64d1fa.jpg" alt="logo-conserv" class="logo-conserv">
+                            
+                            LIFE IP CLIMAZ
+                        </a>
+
+                        
+
+                        <a href="https://www.lifesnails.eu"  target="_blank" >
+                            
+                                <img src="/media/cache/75/42/754283436f1fcadfb51d6f819dab305d.jpg" alt="logo-conserv" class="logo-conserv">
+                            
+                            LIFE SNAILS
+                        </a>
+
+                        
+
+                        <a href="http://siaram.azores.gov.pt/"  target="_blank" >
+                            
+                                <img src="/media/cache/9c/db/9cdbd71243a8bff33e8825e3c9d17434.jpg" alt="logo-conserv" class="logo-conserv">
+                            
+                            SIARAM
+                        </a>
+
+                        
+
+                    </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <style>
+        .event_date{
+        color: #3aa527;
+        font-size: 1em;
+        margin: 6px 0 0px 0;
+        }
+    </style>
+
+
+    
+    <footer>
+        <div class="container">
+            <div class="grid-x3">
+                <div class="menu-footer">
+                    <h2>Menu</h2>
+                    <nav class="menu-footer">
+                        <a href="/pt/parques">Parques Naturais dos Açores</a>
+                        <a href="/pt/guia/">Guia de Campo</a>
+                        <a href="/pt/roteiros/">Roteiros</a>
+                        <a href="/pt/noticias/">Notícias</a>
+                    </nav>
+                    <div class="idioma-footer">
+                        definir idioma:
+                        <a href="#PT" class="selecionado">PT</a>
+                        <a href="#EN">EN</a>
+                    </div>
+                </div>
+                <div class="contactos links-uteis">
+                    <h2>Contactos</h2>
+                        <ul>
+                            <li><a href="/pt/contactos">Ver Todos</a></li>
+                        </ul>
+
+                </div>
+
+                <div class="links-uteis">
+                    <h2>Links Úteis</h2>
+                    <ul>
+
+                        
+                        <li><a href="https://portal.azores.gov.pt/web/gov" target="_blank">Governo dos Açores</a></li>
+                        
+                        <li><a href="https://portal.azores.gov.pt/web/sraac" target="_blank">Secretaria Regional do Ambiente e Ação Climática</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="redes-sociais">
+                    <h2>Visite as nossas redes sociais</h2>
+                    <ul class="social">
+                        
+                            <li><a href="https://www.facebook.com/acoresambiente/" target="_blank"><img src="/media/social_media_icons/None/facebook.svg" alt="rede-social" style="height: 35px; width: auto;"></a></li>
+                        
+                            <li><a href="https://www.instagram.com/ambienteacores/" target="_blank"><img src="/media/social_media_icons/None/insta.svg" alt="rede-social" style="height: 35px; width: auto;"></a></li>
+                        
+                            <li><a href="https://www.youtube.com/channel/UC6QGmugmUAgu4AaSY7VDm3A" target="_blank"><img src="/media/social_media_icons/None/youtube.svg" alt="rede-social" style="height: 35px; width: auto;"></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="meo">
+                    <img src="/static/img/meo.png" alt="meo 267808">
+                </div>
+                <div class="sos">
+                    <a href="tel:+351800292800"><img src="/static/img/sosAmbiente.svg" alt="sos ambiente"></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="direitos">
+        <div class="container">
+           <ul>
+               
+                    <li><a href="/pt/informacao_lega/1"> Ficha Técnica</li>
+                   <li>|</li>
+               
+                    <li><a href="/pt/informacao_lega/2"> Avisos Legais</li>
+                   <li>|</li>
+               
+                    <li><a href="/pt/informacao_lega/4"> Livro de Reclamações</li>
+                   <li>|</li>
+               
+           </ul>
+            <span>Respeita os termos do WCAG 2.00 AA</span>
+        </div>
+    </div>
+
+    <script type="05a12955dc1ba8013d7a40cc-text/javascript">
+        $( document ).ready(function() {
+          $(".btn-menu").click(function(){
+            $(".nav-principal").css("left","0");
+            $("body").addClass("no-scroll");
+          });
+          $(".close-btn").click(function(){
+            $(".nav-principal").css("left","100%");
+            $("body").removeClass("no-scroll");
+          });
+        });
+
+        var owl = $(".owl-carousel");
+
+        owl.owlCarousel({
+            loop:true,
+            dots: false,
+            items:1
+        });
+        $(".next").click(function(){
+            owl.trigger('next.owl.carousel');
+        })
+        $(".prev").click(function(){
+            owl.trigger('prev.owl.carousel');
+        });
+
+
+    </script>
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="05a12955dc1ba8013d7a40cc-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4464c46330544cae8e8fa2ade95aef55","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

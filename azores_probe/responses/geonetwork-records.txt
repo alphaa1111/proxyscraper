@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:void="http://www.w3.org/TR/void/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:time="http://www.w3.org/2006/time#" xmlns:dct="http://purl.org/dc/terms/">
+<hydra:PagedCollection xmlns:hydra="http://www.w3.org/ns/hydra/core#" rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/api/records/?hitsPerPage=20&amp;from=1&amp;to=20">
+<rdf:type rdf:resource="hydra:PartialCollectionView"/><hydra:lastPage>https://sma.idea.azores.gov.pt/geonetwork/srv/api/records/?hitsPerPage=20&amp;from=641&amp;to=659</hydra:lastPage>
+<hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">659</hydra:totalItems>
+<hydra:nextPage>https://sma.idea.azores.gov.pt/geonetwork/srv/api/records/?hitsPerPage=20&amp;from=21&amp;to=40</hydra:nextPage>
+<hydra:firstPage>https://sma.idea.azores.gov.pt/geonetwork/srv/api/records/?hitsPerPage=20&amp;from=1&amp;to=20</hydra:firstPage>
+<hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hydra:itemsPerPage>
+</hydra:PagedCollection>
+<dcat:Catalog   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/catalogs/1efb6bf3-9d87-42d9-bace-43fdea6d036d">
+  <dct:title  xml:lang="po">SISTEMA DE METADADOS DOS AÇORES</dct:title>
+  <dct:description  />
+  <rdfs:label  xml:lang="po">SISTEMA DE METADADOS DOS AÇORES (Governo dos Açores)</rdfs:label>
+  <foaf:homepage  />
+  <void:openSearchDescription >eng/portal.opensearch</void:openSearchDescription>
+  <void:uriLookupEndpoint >eng/rdf.search?any=</void:uriLookupEndpoint>
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Governo%20dos%20A%C3%A7ores" />
+  <dcat:themes rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/external.place.regions" />
+  <dct:language >por</dct:language>
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/09604800-19a4-44ac-abf4-918a4819ca85" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/09604800-19a4-44ac-abf4-918a4819ca85" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/3d2a4851-8175-4e9d-922f-3a053c9271dd" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/3d2a4851-8175-4e9d-922f-3a053c9271dd" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/cbc36f39-025b-4178-b1c5-3c3e2697d9a2" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/cbc36f39-025b-4178-b1c5-3c3e2697d9a2" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/0d624df9-0fe9-42b7-9864-c171cad960b0" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/0d624df9-0fe9-42b7-9864-c171cad960b0" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/deb2bed6-dfd1-4556-b947-ab0939c1e47b" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/deb2bed6-dfd1-4556-b947-ab0939c1e47b" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/97c2d557-df60-461d-b629-5332fe68caa7" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/97c2d557-df60-461d-b629-5332fe68caa7" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/04b863de-dd86-4efb-b309-179ff65f45e1" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/04b863de-dd86-4efb-b309-179ff65f45e1" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/35ec6303-5b24-4870-867b-4f2e51711a2c" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/35ec6303-5b24-4870-867b-4f2e51711a2c" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/a61a4389-cb81-41db-b0e8-525c30983046" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/a61a4389-cb81-41db-b0e8-525c30983046" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/45dccd6a-afda-4be1-9f0f-9ae537534bb3" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/45dccd6a-afda-4be1-9f0f-9ae537534bb3" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/1cc389e8-11b8-4a40-9e68-c4407e6f1635" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/1cc389e8-11b8-4a40-9e68-c4407e6f1635" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/8884be8a-9b21-4703-b7f3-b012ee333d7d" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/8884be8a-9b21-4703-b7f3-b012ee333d7d" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/db224756-2589-4ed9-a7c5-6efe5ad1f653" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/db224756-2589-4ed9-a7c5-6efe5ad1f653" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/41104f4b-99d5-410c-99d3-5e5906e074e3" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/41104f4b-99d5-410c-99d3-5e5906e074e3" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/46970ec7-f34c-4e13-adec-01d404b9be16" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/46970ec7-f34c-4e13-adec-01d404b9be16" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/235c9baf-c2f7-4957-8c69-4d9c6e9b4e87" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/235c9baf-c2f7-4957-8c69-4d9c6e9b4e87" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/219144aa-0c1d-48ae-89b7-84ecb0b0459f" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/219144aa-0c1d-48ae-89b7-84ecb0b0459f" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/badfca2c-025e-4d46-bf32-37f3137d51d1" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/badfca2c-025e-4d46-bf32-37f3137d51d1" />
+  <dcat:dataset rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/datasets/http://id.igeo.pt/sdg/bdc045ee-a011-4b63-a924-29bd5f0af66a" />
+  <dcat:record rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/bdc045ee-a011-4b63-a924-29bd5f0af66a" />
+
+<dcat:dataset>
+<foaf:Organization   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Governo%20dos%20A%C3%A7ores">
+  <foaf:name>Governo dos Açores</foaf:name>
+</foaf:Organization></dcat:dataset>
+<dcat:dataset>
+<skos:ConceptScheme   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/external.place.regions">
+  <dct:title >Continents, countries, sea regions of the world.</dct:title>
+  <dct:uri >https://sma.idea.azores.gov.pt:/geonetwork/srv/eng/thesaurus.download?ref=external.place.regions</dct:uri>
+</skos:ConceptScheme></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/09604800-19a4-44ac-abf4-918a4819ca85">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/09604800-19a4-44ac-abf4-918a4819ca85" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/09604800-19a4-44ac-abf4-918a4819ca85/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/09604800-19a4-44ac-abf4-918a4819ca85">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/09604800-19a4-44ac-abf4-918a4819ca85">
+  <dct:identifier >09604800-19a4-44ac-abf4-918a4819ca85</dct:identifier>
+  <dct:title >Serviço de Visualização (WMS) do Relevo da ilha do Pico - Região Autónoma dos Açores (RAA)</dct:title>
+  <dct:abstract >Serviço de Visualização (WMS) do Relevo da ilha do Pico - Região Autónoma dos Açores (RAA). Dados e serviço da responsabilidade da Secretaria Regional do Ambiente e Ação Climática/Governo dos Açores</dct:abstract>
+  <dcat:keyword >Açores</dcat:keyword>
+  <dcat:keyword >Pico</dcat:keyword>
+  <dcat:keyword >Portugal</dcat:keyword>
+  <dcat:keyword >Serviço de Visualização</dcat:keyword>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:keyword >SRAAC_GRA</dcat:keyword>
+  <dcat:keyword >Relevo</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Secretaria%20Regional%20do%20Ambiente%20e%20A%C3%A7%C3%A3o%20Clim%C3%A1tica%2FGoverno%20dos%20A%C3%A7ores" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >A reprodução e cópia para usos não comerciais é autorizada nos termos de licença Creative Commons – Atribuição (CC-BY). O uso comercial sem consentimento por escrito da Secretaria Regional do Ambiente e Ação Climática/Governo dos Açores é expressamente proibido. Sempre que o utilizador publique e/ou divulgue, por meio analógico ou digital, informação geográfica propriedade da Secretaria Regional do Ambiente e Ação Climática (SRAAC), ainda que parcialmente adaptada, deverá atribuir os respetivos créditos com inclusão do texto “Informação geográfica cedida pela Secretaria Regional do Ambiente e Ação Climática/Governo dos Açores” ou “© SRAAC/GRA” ou “Fonte: SRAAC/GRA"</dct:license>
+  <dcat:distribution  rdf:resource="https://wssig4.azores.gov.pt/geoserver/relevo/hillshade_pic/wms?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities" />
+  <dcat:dataQuality >Serviço de Visualização (WMS) do Relevo da ilha do Pico - Região Autónoma dos Açores (RAA). Dados e serviço da responsabilidade da Secretaria Regional do Ambiente e Ação Climática/Governo dos Açores.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8">
+  <dct:identifier >http://id.igeo.pt/sdg/14a2bc9f-85f3-41f1-b5d1-8ca3411dd2f8</dct:identifier>
+  <dct:title >Plano Pormenor de Salvaguarda de Angra do Heroísmo - C03 (Condicionantes) - Ilha Terceira (Região Autónoma dos Açores)</dct:title>
+  <dct:abstract >O PPSAH tem a natureza de regulamento administrativo e as suas disposições vinculam as entidades públicas e os particulares. Esta planta corresponde à planta de condicionantes sendo um elemento de constituição do PPSAH. (Regulamento: http://geoangra.cmah.pt/ppsah/Regulamento_PPSAH.pdf)</dct:abstract>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/InfoFeatureAccessService" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/C%C3%A2mara%20Municipal%20de%20Angra%20do%20Hero%C3%ADsmo" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dcat:distribution  rdf:resource="https://ciranda.cmah.pt/arcgis/services/IGT/PPSAH_C03_Condicionantes/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS" />
+  <dcat:dataQuality >.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/3d2a4851-8175-4e9d-922f-3a053c9271dd">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/3d2a4851-8175-4e9d-922f-3a053c9271dd" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/3d2a4851-8175-4e9d-922f-3a053c9271dd/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/3d2a4851-8175-4e9d-922f-3a053c9271dd">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/3d2a4851-8175-4e9d-922f-3a053c9271dd">
+  <dct:identifier >http://id.igeo.pt/sdg/3d2a4851-8175-4e9d-922f-3a053c9271dd</dct:identifier>
+  <dct:title >Serviço de Visualização (WMS) do Plano de Pormenor da Salga do Município de Nordeste</dct:title>
+  <dct:abstract >Serviço de Visualização (WMS) de temas harmonizados no âmbito da Diretiva INSPIRE, presentes na Infraestrutura SIG Municípal do Concelho de Nordeste, nomeadamente: PP Salga.</dct:abstract>
+  <dcat:keyword >INSPIRECORE</dcat:keyword>
+  <dcat:keyword >WMS</dcat:keyword>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:keyword >Endereços Edificios</dcat:keyword>
+  <dcat:keyword >Edificios</dcat:keyword>
+  <dcat:keyword >Toponimia</dcat:keyword>
+  <dcat:keyword >Plano Diretor Municipal</dcat:keyword>
+  <dcat:keyword >Plano de Pormenor</dcat:keyword>
+  <dcat:keyword >Edifícios de Utilidade Publica</dcat:keyword>
+  <dcat:keyword >Saneamento</dcat:keyword>
+  <dcat:keyword >Abastecimento de Água</dcat:keyword>
+  <dcat:keyword >Turismo</dcat:keyword>
+  <dcat:keyword >Arquipélago dos Açores</dcat:keyword>
+  <dcat:keyword >Grupo Oriental</dcat:keyword>
+  <dcat:keyword >São Miguel</dcat:keyword>
+  <dcat:keyword >Nordeste</dcat:keyword>
+  <dcat:keyword >NOR</dcat:keyword>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/C%C3%A2mara%20Municipal%20de%20Nordeste" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >Sempre que o utilizador publique e/ou divulgue, por meio analógico ou digital, informação geográfica propriedade da Câmara Municipal do Nordeste (CMN), ainda que parcialmente adaptada, deverá atribuir os respetivos créditos com inclusão do texto “Informação geográfica disponibilizada pela Câmara Municipal do Nordeste, Açores”</dct:license>
+  <dcat:distribution  rdf:resource="https://sigweb.cmnordeste.pt/geoserver/igi.inspire_lu_pp_salga/wms?service=wms&amp;version=1.3.0&amp;request=GetCapabilities" />
+  <dcat:dataQuality >De toda informação geográfica existente do município, procedeu-se à harmonização dos temas: Endereços (Anexo I.5); Edifícios (Anexo III.2 Buildings); Toponímia ( Anexo I.3 Geographical Names); Revisão do PDM e PP Salga (Anexo III.4 Land Use); Edificios de Utilidade Pública (Anexo III.6 Utility and Government Services), Sistemas de Abastecimento de Água e Saneamento de Águas Residuais e Pluviais (Anexo III.6 Utility and Government Services), no âmbito da Diretiva INSPIRE.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/cbc36f39-025b-4178-b1c5-3c3e2697d9a2">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/cbc36f39-025b-4178-b1c5-3c3e2697d9a2" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/cbc36f39-025b-4178-b1c5-3c3e2697d9a2/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/cbc36f39-025b-4178-b1c5-3c3e2697d9a2">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/cbc36f39-025b-4178-b1c5-3c3e2697d9a2">
+  <dct:identifier >http://id.igeo.pt/sdg/cbc36f39-025b-4178-b1c5-3c3e2697d9a2</dct:identifier>
+  <dct:title >Plano Pormenor de Salvaguarda de Angra do Heroísmo - C03a (Condicionantes) - Ilha Terceira (Região Autónoma dos Açores)</dct:title>
+  <dct:abstract >O PPSAH tem a natureza de regulamento administrativo e as suas disposições vinculam as entidades públicas e os particulares. Esta planta corresponde à planta de condicionantes (a) sendo um elemento de constituição do PPSAH. (Regulamento: http://geoangra.cmah.pt/ppsah/Regulamento_PPSAH.pdf)</dct:abstract>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/InfoFeatureAccessService" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/C%C3%A2mara%20Municipal%20de%20Angra%20do%20Hero%C3%ADsmo" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dcat:distribution  rdf:resource="https://ciranda.cmah.pt/arcgis/services/IGT/PPSAH_C03a_Condicionantes/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS" />
+  <dcat:dataQuality >.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/0d624df9-0fe9-42b7-9864-c171cad960b0">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/0d624df9-0fe9-42b7-9864-c171cad960b0" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/0d624df9-0fe9-42b7-9864-c171cad960b0/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/0d624df9-0fe9-42b7-9864-c171cad960b0">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/0d624df9-0fe9-42b7-9864-c171cad960b0">
+  <dct:identifier >http://id.igeo.pt/sdg/0d624df9-0fe9-42b7-9864-c171cad960b0</dct:identifier>
+  <dct:title >Plano Pormenor de Salvaguarda de Angra do Heroísmo - A03 (Equipamentos) - Ilha Terceira (Região Autónoma dos Açores)</dct:title>
+  <dct:abstract >O PPSAH tem a natureza de regulamento administrativo e as suas disposições vinculam as entidades públicas e os particulares. Esta planta corresponde à planta de equipamentos sendo um elemento de acompanhamento do PPSAH. (Regulamento: http://geoangra.cmah.pt/ppsah/Regulamento_PPSAH.pdf)</dct:abstract>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/infoMapAccessService" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/C%C3%A2mara%20Municipal%20de%20Angra%20do%20Hero%C3%ADsmo" />
+  <dcat:distribution  rdf:resource="https://ciranda.cmah.pt/arcgis/services/IGT/PPSAH_A03_Equipamentos/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS" />
+  <dcat:dataQuality >.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/deb2bed6-dfd1-4556-b947-ab0939c1e47b">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/deb2bed6-dfd1-4556-b947-ab0939c1e47b" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/deb2bed6-dfd1-4556-b947-ab0939c1e47b/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/deb2bed6-dfd1-4556-b947-ab0939c1e47b">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/deb2bed6-dfd1-4556-b947-ab0939c1e47b">
+  <dct:identifier >http://id.igeo.pt/sdg/deb2bed6-dfd1-4556-b947-ab0939c1e47b</dct:identifier>
+  <dct:title >Plano Pormenor de Salvaguarda de Angra do Heroísmo - C02 (Implantação - Parque Edificado e Estrutura Urbana) - Ilha Terceira (Região Autónoma dos Açores)</dct:title>
+  <dct:abstract >O PPSAH tem a natureza de regulamento administrativo e as suas disposições vinculam as entidades públicas e os particulares. Esta planta corresponde à planta de implantação - parque edificado e estrutura urbana sendo um elemento de constituição do PPSAH. (Regulamento: http://geoangra.cmah.pt/ppsah/Regulamento_PPSAH.pdf)</dct:abstract>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/InfoFeatureAccessService" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/C%C3%A2mara%20Municipal%20de%20Angra%20do%20Hero%C3%ADsmo" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dcat:distribution  rdf:resource="https://ciranda.cmah.pt/arcgis/services/IGT/PPSAH_C02_Implantacao_ParqueEdificado_EstruturaUrbana/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS" />
+  <dcat:dataQuality >.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/97c2d557-df60-461d-b629-5332fe68caa7">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/97c2d557-df60-461d-b629-5332fe68caa7" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/97c2d557-df60-461d-b629-5332fe68caa7/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/97c2d557-df60-461d-b629-5332fe68caa7">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/97c2d557-df60-461d-b629-5332fe68caa7">
+  <dct:identifier >97c2d557-df60-461d-b629-5332fe68caa7</dct:identifier>
+  <dct:title >Serviço de Descarregamento dos Estabelecimentos de Ensino da Região Autónoma dos Açores (RAA)</dct:title>
+  <dct:abstract >Serviço de Descarregamento dos Estabelecimentos de Ensino da Região Autónoma dos Açores (RAA)</dct:abstract>
+  <dcat:keyword >Portugal</dcat:keyword>
+  <dcat:keyword >Açores</dcat:keyword>
+  <dcat:keyword >Flores</dcat:keyword>
+  <dcat:keyword >Corvo</dcat:keyword>
+  <dcat:keyword >Faial</dcat:keyword>
+  <dcat:keyword >Pico</dcat:keyword>
+  <dcat:keyword >Graciosa</dcat:keyword>
+  <dcat:keyword >São Jorge</dcat:keyword>
+  <dcat:keyword >São Miguel</dcat:keyword>
+  <dcat:keyword >Santa Maria</dcat:keyword>
+  <dcat:keyword >Terceira</dcat:keyword>
+  <dcat:keyword >Estabelecimentos de ensino</dcat:keyword>
+  <dcat:keyword >Escolas</dcat:keyword>
+  <dcat:keyword >GRA_SREAC</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoFeatureAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/InfoFeatureAccessService" />
+  <dct:issued >2017-06-18</dct:issued>
+  <dct:updated >2020-07-06</dct:updated>
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Dire%C3%A7%C3%A3o%20Regional%20da%20Educa%C3%A7%C3%A3o%20e%20Administra%C3%A7%C3%A3o%20Educativa%2FGoverno%20dos%20A%C3%A7ores" />
+  <dct:accrualPeriodicity >asNeeded</dct:accrualPeriodicity>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dcat:distribution  rdf:resource="https://wssig4.azores.gov.pt/geoserver/escolas/wfs?service=WFS&amp;version=1.0.0&amp;request=GetCapabilities" />
+  <dcat:dataQuality >Serviço de descarregamento criado para o portal do Governo dos Açores.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/04b863de-dd86-4efb-b309-179ff65f45e1">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/04b863de-dd86-4efb-b309-179ff65f45e1" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/04b863de-dd86-4efb-b309-179ff65f45e1/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/04b863de-dd86-4efb-b309-179ff65f45e1">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/04b863de-dd86-4efb-b309-179ff65f45e1">
+  <dct:identifier >04b863de-dd86-4efb-b309-179ff65f45e1</dct:identifier>
+  <dct:title >Serviço de Visualização (WMS) com a Planta de Condicionantes e Planta de Síntese do Plano de Ordenamento das Bacias Hidrográficas das Lagoas do Fogo, do Congro, de São Brás e da Serra Devassa (POBHLSM) - Região Autónoma dos Açores (RAA)</dct:title>
+  <dct:abstract >Serviço de Visualização (WMS) com a Planta de Condicionantes e Planta de Síntese do Plano de Ordenamento das Bacias Hidrográficas das Lagoas do Fogo, do Congro, de São Brás e da Serra Devassa (POBHLSM), publicado pelo Decreto Regulamentar Regional n.º 12/2013/A, de 30 de setembro.</dct:abstract>
+  <dcat:keyword >Açores</dcat:keyword>
+  <dcat:keyword >São Miguel</dcat:keyword>
+  <dcat:keyword >Portugal</dcat:keyword>
+  <dcat:keyword >Lagoa do Fogo</dcat:keyword>
+  <dcat:keyword >Lagos do Congro</dcat:keyword>
+  <dcat:keyword >Lagoa de São Brás</dcat:keyword>
+  <dcat:keyword >Serra Devassa</dcat:keyword>
+  <dcat:keyword >Serviço de Visualização</dcat:keyword>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:keyword >SRAAC_GRA</dcat:keyword>
+  <dcat:keyword >POBHLSM</dcat:keyword>
+  <dcat:keyword >Plano de Ordenamento de Bacia Hidrográfica de Lagoa</dcat:keyword>
+  <dcat:keyword >Instrumentos de Gestão Territorial</dcat:keyword>
+  <dcat:keyword >Ordenamento do Território</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/infoMapAccessService" />
+  <dct:issued >2021-10-26</dct:issued>
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Secretaria%20Regional%20do%20Ambiente%20e%20A%C3%A7%C3%A3o%20Clim%C3%A1tica%2FGoverno%20dos%20A%C3%A7ores" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >A reprodução e cópia para usos não comerciais é autorizada nos termos de licença Creative Commons – Atribuição (CC-BY). O uso comercial sem consentimento por escrito da Secretaria Regional do Ambiente e Ação Climática/Governo dos Açores é expressamente proibido. Sempre que o utilizador publique e/ou divulgue, por meio analógico ou digital, informação geográfica propriedade da Secretaria Regional do Ambiente e Ação Climática (SRAAC), ainda que parcialmente adaptada, deverá atribuir os respetivos créditos com inclusão do texto “Informação geográfica cedida pela Secretaria Regional do Ambiente e Ação Climática/Governo dos Açores” ou “© SRAAC/GRA” ou “Fonte: SRAAC/GRA"</dct:license>
+  <dcat:distribution  rdf:resource="https://visualizador-idea.ambiente.azores.gov.pt/postgresql/idea/public/pobhl_smg/cgi-bin/qgis_mapserv.fcgi?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0" />
+  <dcat:dataQuality >Serviço de Visualização (WMS) com a Planta de Condicionantes e Planta de Síntese do Plano de Ordenamento das Bacias Hidrográficas das Lagoas do Fogo, do Congro, de São Brás e da Serra Devassa (POBHLSM).</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/35ec6303-5b24-4870-867b-4f2e51711a2c">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/35ec6303-5b24-4870-867b-4f2e51711a2c" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/35ec6303-5b24-4870-867b-4f2e51711a2c/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/35ec6303-5b24-4870-867b-4f2e51711a2c">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/35ec6303-5b24-4870-867b-4f2e51711a2c">
+  <dct:identifier >http://id.igeo.pt/sdg/35ec6303-5b24-4870-867b-4f2e51711a2c</dct:identifier>
+  <dct:title >Serviço de Descarregamento com os  Postos de transformação de Cliente das infraestruturas da rede elétrica de Alta e Média tensão na Região Autónoma dos Açores (RAA)</dct:title>
+  <dct:abstract >Serviço de Descarregamento com os  Postos de transformação de Cliente das infraestruturas associadas à produção, transformação e distribuição de energia elétrica na Região Autónoma dos Açores (RAA).</dct:abstract>
+  <dcat:keyword >Santa Maria</dcat:keyword>
+  <dcat:keyword >São Miguel</dcat:keyword>
+  <dcat:keyword >Terceira</dcat:keyword>
+  <dcat:keyword >Graciosa</dcat:keyword>
+  <dcat:keyword >São Jorge</dcat:keyword>
+  <dcat:keyword >Pico</dcat:keyword>
+  <dcat:keyword >Faial</dcat:keyword>
+  <dcat:keyword >Flores</dcat:keyword>
+  <dcat:keyword >Corvo</dcat:keyword>
+  <dcat:keyword >Posto de Transformação de Cliente.</dcat:keyword>
+  <dcat:keyword >Infraestruturas</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Options/concepts/INSPIRECORE" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Options/concepts/RAA" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoFeatureAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/infoFeatureAccessService" />
+  <dct:issued >2009-08-01</dct:issued>
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Electricidade%20dos%20A%C3%A7ores%2C%20S.A." />
+  <dct:accrualPeriodicity >monthly</dct:accrualPeriodicity>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >Acesso e utilização dos dados sujeita a autorização da Electricidade dos Açores, S.A.</dct:license>
+  <dcat:distribution  rdf:resource="https://deegree.eda.pt/deegree/services/eda_ptc?service=WFS&amp;request=GetCapabilities" />
+  <dcat:dataQuality >Ver resumo do recurso</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/a61a4389-cb81-41db-b0e8-525c30983046">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/a61a4389-cb81-41db-b0e8-525c30983046" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/a61a4389-cb81-41db-b0e8-525c30983046/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/a61a4389-cb81-41db-b0e8-525c30983046">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/a61a4389-cb81-41db-b0e8-525c30983046">
+  <dct:identifier >http://id.igeo.pt/sdg/a61a4389-cb81-41db-b0e8-525c30983046</dct:identifier>
+  <dct:title >Serviço de Descarregamento com as  Valas e Travessias (MT-AT) das infraestruturas da rede elétrica de Alta e Média tensão na Região Autónoma dos Açores (RAA)</dct:title>
+  <dct:abstract >Serviço de Descarregamento com as  Valas e Travessias (MT-AT) das infraestruturas associadas à produção, transformação e distribuição de energia elétrica na Região Autónoma dos Açores (RAA).</dct:abstract>
+  <dcat:keyword >Santa Maria</dcat:keyword>
+  <dcat:keyword >São Miguel</dcat:keyword>
+  <dcat:keyword >Terceira</dcat:keyword>
+  <dcat:keyword >Graciosa</dcat:keyword>
+  <dcat:keyword >São Jorge</dcat:keyword>
+  <dcat:keyword >Pico</dcat:keyword>
+  <dcat:keyword >Faial</dcat:keyword>
+  <dcat:keyword >Flores</dcat:keyword>
+  <dcat:keyword >Corvo</dcat:keyword>
+  <dcat:keyword >Valas e Travessias (MT-AT)</dcat:keyword>
+  <dcat:keyword >Infraestruturas</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Options/concepts/INSPIRECORE" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Options/concepts/RAA" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoFeatureAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%2019119%20service%20taxonomy/concepts/infoFeatureAccessService" />
+  <dct:issued >2009-08-01</dct:issued>
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Electricidade%20dos%20A%C3%A7ores%2C%20S.A." />
+  <dct:accrualPeriodicity >monthly</dct:accrualPeriodicity>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >Acesso e utilização dos dados sujeita a autorização da Electricidade dos Açores, S.A.</dct:license>
+  <dcat:distribution  rdf:resource="https://deegree.eda.pt/deegree/services/eda_vala_mt?service=WFS&amp;request=GetCapabilities" />
+  <dcat:dataQuality >Ver resumo do recurso</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/45dccd6a-afda-4be1-9f0f-9ae537534bb3">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/45dccd6a-afda-4be1-9f0f-9ae537534bb3" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/45dccd6a-afda-4be1-9f0f-9ae537534bb3/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/45dccd6a-afda-4be1-9f0f-9ae537534bb3">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/45dccd6a-afda-4be1-9f0f-9ae537534bb3">
+  <dct:identifier >http://id.igeo.pt/sdg/45dccd6a-afda-4be1-9f0f-9ae537534bb3</dct:identifier>
+  <dct:title >Serviço de mapa (WMS) dos Serviços da Administração Pública Regional e Local na ilha do Corvo, Roteiro da Administração Regional e Local da Região Autónoma dos Açores</dct:title>
+  <dct:abstract >Serviço de mapa com a localização dos Serviços da Administração Pública Regional e Local na ilha do Corvo, Roteiro da Administração Regional e Local da Região Autónoma dos Açores.</dct:abstract>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Dire%C3%A7%C3%A3o%20Regional%20de%20Organiza%C3%A7%C3%A3o%20e%20Administra%C3%A7%C3%A3o%20P%C3%BAblica%20%2F%20Governo%20dos%20A%C3%A7ores" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dcat:distribution  rdf:resource="http://wssig1.azores.gov.pt/arcgis/services/S0600/COR_Roteiro/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS" />
+  <dcat:dataQuality >Serviço de mapa (WMS) dos Serviços da Administração Pública Regional e Local na ilha do Corvo, Roteiro da Administração Regional e Local da Região Autónoma dos Açores</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/1cc389e8-11b8-4a40-9e68-c4407e6f1635">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/1cc389e8-11b8-4a40-9e68-c4407e6f1635" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/1cc389e8-11b8-4a40-9e68-c4407e6f1635/formatters/xml">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>application/xml</rdf:value>
+          <rdfs:label >XML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+  <dct:references >
+    <rdf:Description rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/1cc389e8-11b8-4a40-9e68-c4407e6f1635">
+      <dct:format>
+        <dct:IMT>
+          <rdf:value>text/html</rdf:value>
+          <rdfs:label >HTML</rdfs:label>
+        </dct:IMT>
+      </dct:format>
+    </rdf:Description>
+  </dct:references>
+</dcat:CatalogRecord></dcat:dataset>
+<dcat:dataset>
+<rdf:Description  rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resource/http://id.igeo.pt/sdg/1cc389e8-11b8-4a40-9e68-c4407e6f1635">
+  <dct:identifier >http://id.igeo.pt/sdg/1cc389e8-11b8-4a40-9e68-c4407e6f1635</dct:identifier>
+  <dct:title >Serviço de mapa (WMS) dos Serviços da Administração Pública Regional e Local na ilha das Flores, Roteiro da Administração Regional e Local da Região Autónoma dos Açores</dct:title>
+  <dct:abstract >Serviço de mapa com a localização dos Serviços da Administração Pública Regional e Local na ilha das Flores, Roteiro da Administração Regional e Local da Região Autónoma dos Açores.</dct:abstract>
+  <dcat:keyword >RAA</dcat:keyword>
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/ISO%20-%2019119%20geographic%20services%20taxonomy/concepts/infoMapAccessService" />
+  <dcat:theme  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/registries/vocabularies/Spatial%20scope/concepts/Regional" />
+  <dct:publisher  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/organizations/Dire%C3%A7%C3%A3o%20Regional%20de%20Organiza%C3%A7%C3%A3o%20e%20Administra%C3%A7%C3%A3o%20P%C3%BAblica%20%2F%20Governo%20dos%20A%C3%A7ores" />
+  <dct:license >otherRestrictions</dct:license>
+  <dct:license >otherRestrictions</dct:license>
+  <dcat:distribution  rdf:resource="http://wssig1.azores.gov.pt/arcgis/services/S0600/FLO_Roteiro/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS" />
+  <dcat:dataQuality >Serviço de mapa com a localização dos Serviços da Administração Pública Regional e Local na ilha das Flores, Roteiro da Administração Regional e Local da Região Autónoma dos Açores.</dcat:dataQuality>
+</rdf:Description></dcat:dataset>
+<dcat:dataset>
+<dcat:CatalogRecord   rdf:about="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/records/8884be8a-9b21-4703-b7f3-b012ee333d7d">
+  <foaf:primaryTopic  rdf:resource="https://sma.idea.azores.gov.pt/geonetwork/srv/resources/resources/http://id.igeo.pt/sdg/8884be8a-9b21-4703-b7f3-b012ee333d7d" />
+  <dct:issued  />
+  <dct:modified  />
+  <dct:references >
+    <rdf:Description rdf:about="https:/

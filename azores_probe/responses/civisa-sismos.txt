@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html>
+    <head>
+        <!--<meta http-equiv="Pragma" content="no-cache">-->
+        <!--<meta http-equiv="Expires" content="-1">-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+        <title>CIVISA Seismic Event Information System</title>
+        <link rel="stylesheet" type="text/css" href="seisan2gm.css">
+        <script type="ee816608fa964c34ef5b74ad-text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAZb3irO2ESN3IdNQ_sHUr9tPc2S9-mQ7o"></script>
+        <!--<script src="https://maps.googleapis.com/maps/api/js&v=3.exp&sensor=false" type="text/javascript"></script>-->
+        <script type="ee816608fa964c34ef5b74ad-text/javascript" src="seisan2gm.js"></script>
+        <script type="ee816608fa964c34ef5b74ad-text/javascript" src="util.js"></script>
+    </head>
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="ee816608fa964c34ef5b74ad-|49"></script><body  onload="initialize('eventgroup.xml')">
+
+
+        <!-- DIVs FOR LEGEND -->
+        <div id="legenddiv_back"></div>
+        <div id="legenddiv">
+            <span style="font-size: 12px; color: white; width: 100%; font-family: Sans-serif;
+                  font-weight: bold">Legenda</span>
+            <table style="font-size: 10px; color: white; width: 100%; font-family: Sans-serif">
+                <tr>
+                    <td><img height="10" width="10" src="pics/latest.gif" alt=""></td>
+                    <td>Ãltimo evento</td>
+                </tr>
+                <tr>
+                    <td><img height="10" width="10" src="pics/icon_red.png" alt=""></td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td><img height="10" width="10" src="pics/icon_orange.png" alt=""></td>
+                    <td>1-5 dias</td>
+                </tr>
+                <tr>
+                    <td><img height="10" width="10" src="pics/icon_yellow.png" alt=""></td>
+                    <td>+5 dias</td>
+                </tr>
+                <tr>
+                    <td><img height="10" width="10" src="pics/circle.png" alt=""></td>
+                    <td>Sentido</td>
+                </tr>
+            </table>
+            <br>
+            <span style="font-size: 10px; color: white; width: 100%; font-family: Sans-serif; font-weight: bold">Magnitudes</span>
+            <table style="font-size: 10px; color: white; width: 100%; font-family: Sans-serif; text-align: center">
+                <tr>
+                    <td><img height="10" width="10" src="pics/icon_yellow.png" alt=""></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td><img height="15" width="15" src="pics/icon_yellow.png" alt=""></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td><img height="20" width="20" src="pics/icon_yellow.png" alt=""></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td><img height="25" width="25" src="pics/icon_yellow.png" alt=""></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td><img height="30" width="30" src="pics/icon_yellow.png" alt=""></td>
+                    <td>6</td>
+                </tr>
+            </table>
+        </div>
+
+        
+
+
+        <!-- CVARG LOGO -->
+        <div id="cvarglogodiv" style="
+             position: absolute;
+             left:50%;
+             margin-left: -160px;
+             top: 5px;
+             width: 320px;
+             height: 14px;
+             font-size: 11px;
+             font-family: Sans-serif;
+             text-align: center;
+             color: white;
+             z-index: 100;
+             overflow: hidden;
+             padding: 0px;
+             visibility: visible">
+            <!--<img width="49" height="44" src="CVARGLogo.png"/>-->
+            Centro de Vulcanologia e AvaliaÃ§Ã£o de Riscos GeolÃ³gicos
+        </div>
+
+        <!-- DIV FOR TABLE -->
+        <div id="EventTable_back" class="EventTable_back_small_screen"></div>
+        <div id="EventTable" class="EventTable_small_screen">
+            <table id="event_table" style="font-size: 12px; color: white; width: 100%; font-family: Sans-serif">
+                <tr  style="color: white; background-color:#C00000">
+                    <td>Data UTC</td>
+                    <td>Lat.</td>
+                    <td>Lon.</td>
+                    <td>Mag.</td>
+                    <td>RegiÃ£o</td>
+                    <td>Int. max. EMM</td>
+                    <td>Localidade</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- DEBUG -->
+        
+        <div id="debug" style="
+             position: absolute;
+             bottom: 300px;
+             left: 300px;
+             width: 200px;
+             height: 200px;
+             font-size: smaller;
+             z-index: 100;
+             color: #000000;  background-color: #FFFFFF;
+             overflow: auto;
+             padding: 5px;
+             border: solid 1px #FFFFFF;
+             visibility: hidden">
+        </div>
+
+        <!-- MAP CANVAS -->
+        <div id="map_canvas" class="map_canvas_small_screen"></div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="ee816608fa964c34ef5b74ad-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4464c46330544cae8e8fa2ade95aef55","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</html>

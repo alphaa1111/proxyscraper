@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="pt">
+	<head>
+		<title>Pesquisa</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="description" content="Pesquisa de contratos, an&#250;ncios, entidades, modifica&#231;&#245;es contratuais, bens m&#243;veis ou consultas preliminares">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="/Base4/Images/favicon.ico">
+		<link rel="stylesheet" href="/Base4/Css/Bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="/Base4/Css/FontAwesome/fontawesome.min.css">
+		<link rel="stylesheet" href="/Base4/Css/jQueryUI/jquery-ui.min.css">
+		
+		<link rel="stylesheet" href="/Base4/Css/Custom/styles.min.css">
+	</head>
+	<body>
+		<a href="#main_content" class="sr-only sr-only-focusable">Saltar para o conte&#250;do principal da p&#225;gina</a>
+		<div class="b-header-screen">
+			<div class="b-head-row-brand">
+				<div class="container-fluid b-page-width">
+					<div class="d-flex justify-content-between align-items-stretch b-header-block">
+						<div class="d-flex align-items-center b-brand-block">
+							<a href="http://www.impic.pt/" target="_blank">
+								<img class="mr-3" src="/Base4/media/wdzmcbwi/impic.png" alt="Instituto dos Mercados P&#250;blicos, do Imobili&#225;rio e da Constru&#231;&#227;o, I.P.">
+							</a>
+							<h1 class="mb-0"><a href="/Base4/pt/">
+								<img src="/Base4/media/dbifsfus/base.png" alt="Portal BASE - Contratos P&#250;blicos Online">
+							</a></h1>
+						</div>
+						<div class="d-flex align-items-center">
+							<div class="d-flex align-items-center b-search-top">
+								<form action="/Base4/pt/utilidades/pesquisa-de-conteudos/" method="get">
+									<input type="text" class="pl-3" name="text" aria-label="Texto" placeholder="Pesquisar p&#225;ginas">
+									<button type="submit" class="btn btn-primary b-btn-search" aria-label="Pesquisar">
+										<span class="fal fa-search mr-2"></span>
+									</button>
+								</form>
+							</div>
+							<div class="d-flex align-items-center b-lang-block">
+										<a href="/Base4/en/search/?type=contratos&distrito=PT200" data-toggle="tooltip" title="English" class="btn btn-outline-secondary b-btn-lang">EN</a>
+										<span data-toggle="tooltip" title="Portugu&#234;s" class="btn btn-outline-secondary b-btn-lang b-active">PT</span>
+								<a href="http://www.base.gov.pt/base2-backoffice" class="btn btn-link d-flex align-items-center b-btn-lock">
+									<span class="fal fa-lock-alt"></span>
+									<div>&#193;rea Reservada</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="b-head-row-nav">
+				<div class="container-fluid b-page-width">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+						<a class="navbar-brand" href="http://www.base.gov.pt/base2-backoffice">
+							<span class="fal fa-lock-alt"></span>
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_nav" aria-controls="navbar_nav" aria-expanded="false" aria-label="Alternar navega&#231;&#227;o">
+							<span class="fal fa-bars"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbar_nav">
+							<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/noticias/2026/">Not&#237;cias</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/documentacao/diretivas-europeias/">Documenta&#231;&#227;o</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/orientacoes-tecnicas/">Orienta&#231;&#245;es T&#233;cnicas</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/perguntas-frequentes/">Perguntas Frequentes</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/relatorios-circulares-e-notas-informativas/relatorios/">Relat&#243;rios</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/legislacao/">Legisla&#231;&#227;o</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/sancoes-acessorias/">San&#231;&#245;es Acess&#243;rias</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/medidas-especiais-de-contrata&#231;&#227;o-mec-lei-n-&#186;-30-2021/enquadramento-legal/">Medidas Especiais</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/Base4/pt/deucp/">DEUCP</a>
+									</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="b-head-row-search" style="background-image: url(/Base4/media/w1mnmfjr/mosaicos.jpg);">
+				<a id="main_content"></a>
+				<div class="container-fluid b-page-width">
+					<div class="b-search-block">
+						<h2>Bem-vindo.</h2>
+						<p class="b-overview">O Portal BASE centraliza a informa&#231;&#227;o sobre os contratos p&#250;blicos celebrados em Portugal continental e regi&#245;es aut&#243;nomas.</p>
+						<div>
+							<div class="b-search-form">
+								<select class="form-control b-i-search-drop" id="sel_search" aria-label="Tipo de pesquisa">
+									<option value="contratos">Contratos</option>
+									<option value="anuncios">An&#250;ncios DR</option>
+									<option value="entidades">Entidades</option>
+									<option value="incrementos">Modifica&#231;&#245;es contratuais</option>
+									<option value="bensmoveis">Bens m&#243;veis</option>
+									<option value="cnccs">N&#227;o celebra&#231;&#245;es de contrato</option>
+									<option value="impugnacoes">Impugna&#231;&#245;es</option>
+									<option value="consultapreliminar">Consultas preliminares</option>
+								</select>
+								<form id="form_contratos" action="/Base4/pt/pesquisa/" method="get">
+									<div class="d-flex flex-row">
+										<input type="hidden" name="type" value="contratos">
+										<div class="form-group d-flex flex-grow-1">
+											<input class="form-control b-i-search flex-fill" type="text" name="texto" placeholder="Pesquisar pelo objeto do contrato">
+										</div>
+										<button type="submit" id="search_contratos" class="btn btn-primary b-search-btn">Pesquisar</button>
+										<button type="button" id="advanced_contratos" class="btn btn-outline-primary b-search-advanced">Pesquisa avan&#231;ada</button>
+									</div>
+									<div id="extra_contratos" class="advanced_search" style="display: none;">
+										<div class="row mb-3" style="border-bottom: 1px dashed #ccc;">
+											<div class="col-sm-12">
+												<button type="button" id="close_contratos" class="close" aria-label="Fechar"><span class="fal fa-times"></span></button>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-inline">
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="mec" name="mec">
+														<label for="mec" data-toggle="tooltip" title="Assinale para pesquisar procedimentos ao abrigo das medidas especiais – lei n.&#186; 30/2021">Medidas especiais&nbsp;<span class="fal fa-info-circle"></span></label>
+													</div>
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="mecccp" name="mecccp">
+														<label for="mecccp" data-toggle="tooltip" title="Assinale para pesquisar procedimentos lan&#231;ados ao abrigo do CCP com uma tipologia das medidas especiais">Incluir MEC ao abrigo do CCP&nbsp;<span class="fal fa-info-circle"></span></label>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="mecid" data-toggle="tooltip" title="Para escolher a tipologia das medidas especiais assinale pelo menos uma das caixas anteriores">Tipologia da medida especial&nbsp;<span class="fal fa-info-circle"></span></label>
+													<select class="form-control" id="mecid" name="mecid">
+															<option value="0">Todos</option>
+															<option value="1">Projetos financiados ou cofinanciados por fundos europeus – artigo 2&#186; da Lei n.&#186;30/2021</option>
+															<option value="2">Habita&#231;&#227;o e descentraliza&#231;&#227;o – artigo 3&#186; da Lei n.&#186;30/2021</option>
+															<option value="3">Tecnologias de informa&#231;&#227;o e conhecimento – artigo 4&#186; da Lei n.&#186;30/2021</option>
+															<option value="4">Setor da sa&#250;de e do apoio social – artigo 5&#186; da Lei n.&#186;30/2021</option>
+															<option value="10">Plano de Recupera&#231;&#227;o e Resili&#234;ncia (PRR) – artigo 2&#186; da Lei n.&#186;30/2021, DL n.&#186; 78/2022</option>
+															<option value="6">Sistema de Gest&#227;o Integrada de Fogos Rurais – artigo 7&#186; da Lei n.&#186;30/2021</option>
+															<option value="7">Bens agro-alimentares – artigo 8&#186; da Lei n.&#186;30/2021</option>
+															<option value="8">Programa de Estabiliza&#231;&#227;o Econ&#243;mica e Social (PEES) – artigo 6&#186; da Lei n.&#186; 30/2021</option>
+															<option value="9">Plano de Recupera&#231;&#227;o e Resili&#234;ncia (PRR) – artigo 6&#186; da Lei n.&#186;30/2021</option>
+															<option value="11">Regime especial de empreitadas de conce&#231;&#227;o-constru&#231;&#227;o – artigo 2&#186;-A da Lei n.&#186;30/2021, DL n.&#186; 78/2022</option>
+															<option value="21">Forma&#231;&#227;o de contratos no &#226;mbito da concentra&#231;&#227;o de servi&#231;os no Campus XXI - artigo 25.&#186;-C da Lei n.&#186; 30/2021</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="form-row">
+													<div class="form-group col-xs-12 col-sm-6">
+														<label for="adjudicante" data-toggle="tooltip" title="Pode pesquisar pelo NIPC ou descri&#231;&#227;o da entidade">Entidade adjudicante&nbsp;<span class="fal fa-info-circle"></span></label>
+														<input class="form-control" type="text" id="adjudicante" name="adjudicante">
+													</div>
+													<div class="form-group col-xs-12 col-sm-6">
+														<label for="adjudicataria" data-toggle="tooltip" title="Pode pesquisar pelo NIPC ou descri&#231;&#227;o da entidade">Entidade adjudicat&#225;ria&nbsp;<span class="fal fa-info-circle"></span></label>
+														<input class="form-control" type="text" id="adjudicataria" name="adjudicataria">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="tipo">Tipo de procedimento</label>
+													<select class="form-control" id="tipo" name="tipo">
+															<option value="0">Todos</option>
+															<option value="8">Consulta Pr&#233;via</option>
+															<option value="1">Ajuste Direto Regime Geral</option>
+															<option value="2">Concurso p&#250;blico</option>
+															<option value="3">Concurso limitado por pr&#233;via qualifica&#231;&#227;o</option>
+															<option value="4">Procedimento de negocia&#231;&#227;o</option>
+															<option value="5">Di&#225;logo concorrencial</option>
+															<option value="6">Ao abrigo de acordo-quadro (art.&#186; 258.&#186;)</option>
+															<option value="7">Ao abrigo de acordo-quadro (art.&#186; 259.&#186;)</option>
+															<option value="9">Parceria para a inova&#231;&#227;o</option>
+															<option value="10">Disponibiliza&#231;&#227;o de bens m&#243;veis</option>
+															<option value="11">Servi&#231;os sociais e outros servi&#231;os espec&#237;ficos</option>
+															<option value="13">Concurso de conce&#231;&#227;o simplificado</option>
+															<option value="14">Concurso de ideias simplificado</option>
+															<option value="15">Consulta Pr&#233;via Simplificada</option>
+															<option value="16">Concurso p&#250;blico simplificado</option>
+															<option value="17">Concurso limitado por pr&#233;via qualifica&#231;&#227;o simplificado</option>
+															<option value="18">Ajuste Direto Regime Geral ao abrigo do artigo 7&#186; da Lei n.&#186; 30/2021, de 21.05</option>
+															<option value="19">Consulta pr&#233;via ao abrigo do artigo 7&#186; da Lei n.&#186; 30/2021, de 21.05</option>
+															<option value="20">Ajuste direto simplificado</option>
+															<option value="21">Ajuste direto simplificado ao abrigo da Lei n.&#186; 30/2021, de 21.05</option>
+															<option value="22">Setores especiais – isen&#231;&#227;o parte II</option>
+															<option value="23">Contrata&#231;&#227;o exclu&#237;da II</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="tipocontrato">Tipo de contrato</label>
+													<select class="form-control" id="tipocontrato" name="tipocontrato">
+															<option value="0">Todos</option>
+															<option value="1">Aquisi&#231;&#227;o de bens m&#243;veis</option>
+															<option value="2">Aquisi&#231;&#227;o de servi&#231;os</option>
+															<option value="3">Concess&#227;o de obras p&#250;blicas</option>
+															<option value="4">Concess&#227;o de servi&#231;os p&#250;blicos</option>
+															<option value="5">Empreitadas de obras p&#250;blicas</option>
+															<option value="6">Loca&#231;&#227;o de bens m&#243;veis</option>
+															<option value="7">Sociedade</option>
+															<option value="8">Outros</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="cpv" data-toggle="tooltip" title="Pode pesquisar pelo c&#243;digo ou descri&#231;&#227;o do Vocabul&#225;rio Comum para os Contratos P&#250;blicos">CPV&nbsp;<span class="fal fa-info-circle"></span></label>
+													<input class="form-control" type="text" id="cpv" name="cpv">
+												</div>
+												<div class="form-row">
+													<div class="form-group col-xs-12 col-sm-6">
+														<label for="aqinfo">N&#186; ou descri&#231;&#227;o do acordo quadro</label>
+														<input class="form-control" type="text" id="aqinfo" name="aqinfo">
+													</div>
+													<div class="form-inline col-xs-12 col-sm-6">
+														<div class="form-group" id="fg_aq">
+															<input class="form-control" type="checkbox" id="aq" name="aq">
+															<label for="aq" data-toggle="tooltip" title="Assinale para pesquisar acordos quadro ou contratos ao abrigo de acordos quadro">Acordo quadro&nbsp;<span class="fal fa-info-circle"></span></label>
+														</div>
+													</div>
+												</div>
+												<div class="form-inline">
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="centralizado" name="centralizado">
+														<label for="centralizado">Procedimento centralizado</label>
+													</div>
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="pecasactivo" name="pecasactivo">
+														<label for="pecasactivo">Pe&#231;as do procedimento</label>
+													</div>
+												</div>
+												<div class="form-inline">
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="ambientcriteria" name="ambientcriteria">
+														<label for="ambientcriteria">Crit&#233;rios ambientais</label>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="desdeprazoexecucao">Prazo de execu&#231;&#227;o (dias)</label>
+													<div class="form-inline">
+														<div class="form-group">
+															<input class="form-control integer mr-1" type="text" id="desdeprazoexecucao" name="desdeprazoexecucao" autocomplete="off" placeholder="Desde:">
+															<input class="form-control integer" type="text" name="ateprazoexecucao" autocomplete="off" placeholder="At&#233;:">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="sel_price" data-toggle="tooltip" title="Pode pesquisar em simult&#226;neo pelos v&#225;rios intervalos de pre&#231;os">Pre&#231;os&nbsp;<span class="fal fa-info-circle"></span></label>
+													<select class="form-control" id="sel_price" name="sel_price">
+														<option value="price_11">Pre&#231;o contratual</option>
+														<option value="price_12">Pre&#231;o total efetivo</option>
+													</select>
+												</div>
+												<div class="form-inline mb-0">
+													<div id="price_11" class="form-group">
+														<input class="form-control price mr-1" type="text" name="desdeprecocontrato" autocomplete="off" placeholder="Desde:">
+														<input class="form-control price" type="text" name="ateprecocontrato" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-inline">
+													<div id="price_12" class="form-group" style="display: none;">
+														<input class="form-control price mr-1" type="text" name="desdeprecoefectivo" autocomplete="off" placeholder="Desde:">
+														<input class="form-control price" type="text" name="ateprecoefectivo" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="sel_date" data-toggle="tooltip" title="Pode pesquisar em simult&#226;neo pelos v&#225;rios intervalos de datas">Datas&nbsp;<span class="fal fa-info-circle"></span></label>
+													<select class="form-control" id="sel_date" name="sel_date">
+														<option value="date_11">Data do contrato</option>
+														<option value="date_12">Data da publica&#231;&#227;o</option>
+														<option value="date_13">Data do fecho</option>
+													</select>
+												</div>
+												<div class="form-inline mb-0">
+													<div id="date_11" class="form-group">
+														<input class="form-control date mr-1" type="text" name="desdedatacontrato" autocomplete="off" placeholder="Desde:">
+														<input class="form-control date" type="text" name="atedatacontrato" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-inline mb-0">
+													<div id="date_12" class="form-group" style="display: none;">
+														<input class="form-control date mr-1" type="text" name="desdedatapublicacao" autocomplete="off" placeholder="Desde:">
+														<input class="form-control date" type="text" name="atedatapublicacao" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-inline">
+													<div id="date_13" class="form-group" style="display: none;">
+														<input class="form-control date mr-1" type="text" name="desdedatafecho" autocomplete="off" placeholder="Desde:">
+														<input class="form-control date" type="text" name="atedatafecho" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="pais">Local de execu&#231;&#227;o (Pa&#237;s, Distrito, Concelho)</label>
+													<select class="form-control mb-1" id="pais" name="pais">
+															<option value="0">Todos</option>
+															<option value="1">Afeganist&#227;o</option>
+															<option value="2">&#193;frica do Sul</option>
+															<option value="3">Alb&#226;nia</option>
+															<option value="4">Alemanha</option>
+															<option value="5">Andorra</option>
+															<option value="6">Angola</option>
+															<option value="7">Anguila</option>
+															<option value="8">Ant&#225;rctica</option>
+															<option value="9">Ant&#237;gua e Barbuda</option>
+															<option value="11">Ar&#225;bia Saudita</option>
+															<option value="12">Arg&#233;lia</option>
+															<option value="13">Argentina</option>
+															<option value="14">Arm&#233;nia</option>
+															<option value="15">Aruba</option>
+															<option value="17">Austr&#225;lia</option>
+															<option value="18">&#193;ustria</option>
+															<option value="19">Azerbaij&#227;o</option>
+															<option value="20">Bahamas</option>
+															<option value="21">Bangladesh</option>
+															<option value="22">Barbados</option>
+															<option value="23">Bar&#233;m</option>
+															<option value="24">B&#233;lgica</option>
+															<option value="25">Belize</option>
+															<option value="26">Benim</option>
+															<option value="27">Bermudas</option>
+															<option value="28">Bielorr&#250;ssia</option>
+															<option value="29">Bol&#237;via</option>
+															<option value="30">B&#243;snia-Herzegovina</option>
+															<option value="31">Botswana</option>
+															<option value="32">Brasil</option>
+															<option value="33">Brunei Darussalam</option>
+															<option value="34">Bulg&#225;ria</option>
+															<option value="35">Burkina Faso</option>
+															<option value="36">Burundi</option>
+															<option value="37">But&#227;o</option>
+															<option value="38">Cabo Verde</option>
+															<option value="39">Camar&#245;es</option>
+															<option value="40">Camboja</option>
+															<option value="41">Canad&#225;</option>
+															<option value="42">Catar</option>
+															<option value="43">Cazaquist&#227;o</option>
+															<option value="44">Centro-Africana (Rep&#250;blica)</option>
+															<option value="45">Chade</option>
+															<option value="46">Chile</option>
+															<option value="47">China</option>
+															<option value="48">Chipre</option>
+															<option value="49">Col&#244;mbia</option>
+															<option value="50">Comores</option>
+															<option value="51">Congo</option>
+															<option value="52">Congo (Rep&#250;blica Democr&#225;tica do)</option>
+															<option value="53">Coreia (Rep&#250;blica da)</option>
+															<option value="54">Coreia (Rep&#250;blica Popular Democr&#225;tica da)</option>
+															<option value="55">Costa do Marfim</option>
+															<option value="56">Costa Rica</option>
+															<option value="57">Cro&#225;cia</option>
+															<option value="58">Cuba</option>
+															<option value="59">Dinamarca</option>
+															<option value="60">Dom&#237;nica</option>
+															<option value="61">Egipto</option>
+															<option value="62">El Salvador</option>
+															<option value="63">Emiratos &#193;rabes Unidos</option>
+															<option value="64">Equador</option>
+															<option value="65">Eritreia</option>
+															<option value="66">Eslov&#225;quia</option>
+															<option value="67">Eslov&#233;nia</option>
+															<option value="68">Espanha</option>
+															<option value="69">Estados Unidos</option>
+															<option value="70">Est&#243;nia</option>
+															<option value="71">Eti&#243;pia</option>
+															<option value="72">Filipinas</option>
+															<option value="73">Finl&#226;ndia</option>
+															<option value="74">Fran&#231;a</option>
+															<option value="75">Gab&#227;o</option>
+															<option value="76">G&#226;mbia</option>
+															<option value="77">Gana</option>
+															<option value="78">Ge&#243;rgia</option>
+															<option value="79">Ge&#243;rgia do Sul e Ilhas Sandwich</option>
+															<option value="80">Gibraltar</option>
+															<option value="81">Granada</option>
+															<option value="82">Gr&#233;cia</option>
+															<option value="83">Gronel&#226;ndia</option>
+															<option value="84">Guadalupe</option>
+															<option value="85">Guam</option>
+															<option value="86">Guatemala</option>
+															<option value="87">Guernsey</option>
+															<option value="88">Guiana</option>
+															<option value="89">Guiana Francesa</option>
+															<option value="90">Guin&#233;</option>
+															<option value="91">Guin&#233; Equatorial</option>
+															<option value="92">Guin&#233;-Bissau</option>
+															<option value="93">Haiti</option>
+															<option value="94">Honduras</option>
+															<option value="95">Hong Kong</option>
+															<option value="96">Hungria</option>
+															<option value="97">I&#233;me</option>
+															<option value="98">Ilha Bouvet</option>
+															<option value="99">Ilha Christmas</option>
+															<option value="100">Ilha de Man</option>
+															<option value="101">Ilha Heard e Ilhas Mcdonald</option>
+															<option value="102">Ilha Norfolk</option>
+															<option value="104">Ilhas Caim&#227;o</option>
+															<option value="105">Ilhas Cocos (Keeling)</option>
+															<option value="106">Ilhas Cook</option>
+															<option value="107">Ilhas Falkland (Malvinas)</option>
+															<option value="108">Ilhas Faro&#233;</option>
+															<option value="109">Ilhas Fiji</option>
+															<option value="110">Ilhas Marianas do Norte</option>
+															<option value="111">Ilhas Marshall</option>
+															<option value="112">Ilhas Menores Distantes dos Estados Unidos</option>
+															<option value="113">Ilhas Salom&#227;o</option>
+															<option value="114">Ilhas Turcas e Caicos</option>
+															<option value="115">Ilhas Virgens (Brit&#226;nicas)</option>
+															<option value="116">Ilhas Virgens (Estados Unidos)</option>
+															<option value="117">&#205;ndia</option>
+															<option value="118">Indon&#233;sia</option>
+															<option value="119">Ir&#227;o (Rep&#250;blica Isl&#226;mica)</option>
+															<option value="120">Iraque</option>
+															<option value="121">Irlanda</option>
+															<option value="122">Isl&#226;ndia</option>
+															<option value="123">Israel</option>
+															<option value="124">It&#225;lia</option>
+															<option value="125">Jamaica</option>
+															<option value="126">Jap&#227;o</option>
+															<option value="127">Jersey</option>
+															<option value="128">Jibuti</option>
+															<option value="129">Jord&#226;nia</option>
+															<option value="131">Kiribati</option>
+															<option value="132">Kosovo</option>
+															<option value="133">Kuwait</option>
+															<option value="134">Laos (Rep&#250;blica Popular Democr&#225;tica do)</option>
+															<option value="135">Lesoto</option>
+															<option value="136">Let&#243;nia</option>
+															<option value="137">L&#237;bano</option>
+															<option value="138">Lib&#233;ria</option>
+															<option value="139">L&#237;bia (Jamahiriya &#193;rabe da)</option>
+															<option value="140">Liechtenstein</option>
+															<option value="141">Litu&#226;nia</option>
+															<option value="142">Luxemburgo</option>
+															<option value="143">Macau</option>
+															<option value="144">Maced&#243;nia (Antiga Rep&#250;blica Jugoslava da)</option>
+															<option value="145">Madag&#225;scar</option>
+															<option value="146">Mal&#225;sia</option>
+															<option value="147">Malawi</option>
+															<option value="148">Maldivas</option>
+															<option value="149">Mali</option>
+															<option value="150">Malta</option>
+															<option value="151">Marrocos</option>
+															<option value="152">Martinica</option>
+															<option value="153">Maur&#237;cias</option>
+															<option value="154">Maurit&#226;nia</option>
+															<option value="155">Mayotte</option>
+															<option value="156">M&#233;xico</option>
+															<option value="157">Micron&#233;sia (Estados Federados da)</option>
+															<option value="158">Mo&#231;ambique</option>
+															<option value="159">Moldova</option>
+															<option value="160">M&#243;naco</option>
+															<option value="161">Mong&#243;lia</option>
+															<option value="162">Monserrate</option>
+															<option value="163">Montenegro</option>
+															<option value="164">Myanmar</option>
+															<option value="165">Nam&#237;bia</option>
+															<option value="166">Nauru</option>
+															<option value="167">Nepal</option>
+															<option value="168">Nicar&#225;gua</option>
+															<option value="169">Niger</option>
+															<option value="170">Nig&#233;ria</option>
+															<option value="171">Niue</option>
+															<option value="172">Noruega</option>
+															<option value="173">Nova Caled&#243;nia</option>
+															<option value="174">Nova Zel&#226;ndia</option>
+															<option value="175">Om&#227;</option>
+															<option value="176">Pa&#237;ses Baixos</option>
+															<option value="177">Palau</option>
+															<option value="178">Panam&#225;</option>
+															<option value="179">Papu&#225;sia-Nova Guin&#233;</option>
+															<option value="180">Paquist&#227;o</option>
+															<option value="181">Paraguai</option>
+															<option value="182">Peru</option>
+															<option value="183">Pitcairn</option>
+															<option value="184">Polin&#233;sia Francesa</option>
+															<option value="185">Pol&#243;nia</option>
+															<option value="186">Porto Rico</option>
+															<option value="187">Portugal</option>
+															<option value="188">Qu&#233;nia</option>
+															<option value="189">Quirguizist&#227;o</option>
+															<option value="190">Reino Unido</option>
+															<option value="191">Rep&#250;blica Checa</option>
+															<option value="192">Rep&#250;blica Dominicana</option>
+															<option value="193">Reuni&#227;o</option>
+															<option value="194">Rom&#233;nia</option>
+															<option value="195">Ruanda</option>
+															<option value="196">R&#250;ssia (Federa&#231;&#227;o da)</option>
+															<option value="197">Samoa</option>
+															<option value="198">Samoa Americana</option>
+															<option value="199">Santa Helena, Ascens&#227;o e Trist&#227;o da Cunha</option>
+															<option value="201">Santa L&#250;cia</option>
+															<option value="202">Santa S&#233;</option>
+															<option value="203">S&#227;o Bartolomeu</option>
+															<option value="204">S&#227;o Crist&#243;v&#227;o e Nevis</option>
+															<option value="205">S&#227;o Marino</option>
+															<option value="206">S&#227;o Martinho (parte francesa)</option>
+															<option value="207">S&#227;o Pedro e Miquelon</option>
+															<option value="208">S&#227;o Tom&#233; e Pr&#237;ncipe</option>
+															<option value="209">S&#227;o Vicente e Granadinas</option>
+															<option value="210">Sara Ocidental</option>
+															<option value="212">Senegal</option>
+															<option value="213">Serra Leoa</option>
+															<option value="214">S&#233;rvia</option>
+															<option value="216">Seychelles</option>
+															<option value="217">Singapura</option>
+															<option value="218">S&#237;ria (Rep&#250;blica &#193;rabe da)</option>
+															<option value="219">Som&#225;lia</option>
+															<option value="220">Sri Lanka</option>
+															<option value="222">Sud&#227;o</option>
+															<option value="223">Su&#233;cia</option>
+															<option value="224">Sui&#231;a</option>
+															<option value="225">Suriname</option>
+															<option value="226">Svalbard e a Ilha de Jan Mayen</option>
+															<option value="227">Tail&#226;ndia</option>
+															<option value="228">Taiwan (Prov&#237;ncia da China)</option>
+															<option value="229">Tajiquist&#227;o</option>
+															<option value="230">Tanz&#226;nia, Rep&#250;blica Unida da</option>
+															<option value="231">Territ&#243;rio Brit&#226;nico do Oceano &#205;ndico</option>
+															<option value="232">Territ&#243;rio Palestiniano Ocupado</option>
+															<option value="234">Timor Leste</option>
+															<option value="236">Togo</option>
+															<option value="237">Tokelau</option>
+															<option value="238">Tonga</option>
+															<option value="239">Trindade e Tobago</option>
+															<option value="241">Tun&#237;sia</option>
+															<option value="242">Turquemenist&#227;o</option>
+															<option value="243">Turquia</option>
+															<option value="244">Tuvalu</option>
+															<option value="245">Ucr&#226;nia</option>
+															<option value="246">Uganda</option>
+															<option value="247">Uruguai</option>
+															<option value="248">Usbequist&#227;o</option>
+															<option value="249">Vanuatu</option>
+															<option value="250">Venezuela</option>
+															<option value="251">Vietname</option>
+															<option value="252">Wallis e Futuna (Ilhas)</option>
+															<option value="254">Z&#226;mbia</option>
+															<option value="255">Zimbabwe</option>
+															<option value="256">Alanda</option>
+															<option value="257">Bonaire, Santo Eust&#225;quio e Saba</option>
+															<option value="258">Cura&#231;au</option>
+															<option value="259">Sud&#227;o do Sul</option>
+															<option value="260">Essuat&#237;ni</option>
+															<option value="261">S&#227;o Martinho</option>
+															<option value="262">Clipperton</option>
+															<option value="263">Uni&#227;o Europeia</option>
+															<option value="264">Terras Austrais e Ant&#225;rticas Francesas</option>
+													</select>
+													<select class="form-control mb-1" id="distrito" name="distrito">
+															<option value="0">Todos</option>
+													</select>
+													<select class="form-control" id="concelho" name="concelho">
+															<option value="0">Todos</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-sm-12 d-flex justify-content-end mt-2">
+												<button type="reset" id="reset_contratos" class="btn btn-outline-primary b-search-advanced px-4">Limpar</button>
+												<button type="submit" id="search_contratos2" class="btn btn-primary b-search-btn">Pesquisar</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="form_anuncios" action="/Base4/pt/pesquisa/" method="get" style="display: none;">
+									<div class="d-flex flex-row">
+										<input type="hidden" name="type" value="anuncios">
+										<div class="form-group d-flex flex-grow-1">
+											<input class="form-control b-i-search flex-fill" type="text" name="texto" placeholder="Pesquisar pela descri&#231;&#227;o do an&#250;ncio">
+										</div>
+										<button type="submit" id="search_anuncios" class="btn btn-primary b-search-btn">Pesquisar</button>
+										<button type="button" id="advanced_anuncios" class="btn btn-outline-primary b-search-advanced">Pesquisa avan&#231;ada</button>
+									</div>
+									<div id="extra_anuncios" class="advanced_search" style="display: none;">
+										<div class="row">
+											<div class="col-sm-12">
+												<button type="button" id="close_anuncios" class="close" aria-label="Fechar"><span class="fal fa-times"></span></button>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="numeroanuncio">N&#186; do an&#250;ncio DR</label>
+													<input class="form-control" type="text" id="numeroanuncio" name="numeroanuncio">
+												</div>
+												<div class="form-group">
+													<label for="emissora" data-toggle="tooltip" title="Pode pesquisar pelo NIPC ou descri&#231;&#227;o da entidade">Entidade emissora&nbsp;<span class="fal fa-info-circle"></span></label>
+													<input class="form-control" type="text" id="emissora" name="emissora">
+												</div>
+												<div class="form-group">
+													<label for="tipocontrato2">Tipo de contrato</label>
+													<select class="form-control" id="tipocontrato2" name="tipocontrato">
+															<option value="0">Todos</option>
+															<option value="1">Aquisi&#231;&#227;o de bens m&#243;veis</option>
+															<option value="2">Aquisi&#231;&#227;o de servi&#231;os</option>
+															<option value="3">Concess&#227;o de obras p&#250;blicas</option>
+															<option value="4">Concess&#227;o de servi&#231;os p&#250;blicos</option>
+															<option value="5">Empreitadas de obras p&#250;blicas</option>
+															<option value="6">Loca&#231;&#227;o de bens m&#243;veis</option>
+															<option value="7">Sociedade</option>
+															<option value="8">Outros</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="desdedatapublicacao">Data da publica&#231;&#227;o</label>
+													<div class="form-inline">
+														<div class="form-group">
+															<input class="form-control date mr-1" type="text" id="desdedatapublicacao" name="desdedatapublicacao" placeholder="Desde:">
+															<input class="form-control date" type="text" name="atedatapublicacao" placeholder="At&#233;:">
+														</div>
+													</div>
+												</div>
+												<div class="form-inline">
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="pecasactivo2" name="pecasactivo">
+														<label for="pecasactivo2">Pe&#231;as do procedimento</label>
+													</div>
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="activo" name="activo">
+														<label for="activo">An&#250;ncios ativos</label>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="tipoacto">Tipo de ato</label>
+													<select class="form-control" id="tipoacto" name="tipoacto">
+															<option value="0">Todos</option>
+															<option value="1">An&#250;ncio de procedimento</option>
+															<option value="2">An&#250;ncio de concurso urgente</option>
+															<option value="3">Declara&#231;&#227;o de retifica&#231;&#227;o de an&#250;ncio</option>
+															<option value="4">Aviso de prorroga&#231;&#227;o de prazo</option>
+															<option value="5">An&#250;ncio de Altera&#231;&#227;o</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="tipomodelo">Tipo de modelo</label>
+													<select class="form-control" id="tipomodelo" name="tipomodelo">
+															<option value="0">Todos</option>
+															<option value="1">Concurso p&#250;blico</option>
+															<option value="2">Concurso p&#250;blico urgente</option>
+															<option value="3">Concurso limitado por pr&#233;via qualifica&#231;&#227;o</option>
+															<option value="4">Procedimento de negocia&#231;&#227;o</option>
+															<option value="5">Di&#225;logo concorrencial</option>
+															<option value="6">Concurso de concep&#231;&#227;o</option>
+															<option value="7">An&#250;ncio simplificado</option>
+															<option value="8">Institui&#231;&#227;o de sistema de qualifica&#231;&#227;o</option>
+															<option value="9">Inten&#231;&#227;o de celebra&#231;&#227;o de empreitadas de obras publicas por concession&#225;rios que n&#227;o sejam entidades adjudicantes</option>
+															<option value="10">Parceria para a inova&#231;&#227;o</option>
+															<option value="11">Concurso de ideias</option>
+															<option value="12">Institui&#231;&#227;o de sistema de aquisi&#231;&#227;o din&#226;mico</option>
+															<option value="13">Hasta P&#250;blica de Aliena&#231;&#227;o de Bens M&#243;veis</option>
+															<option value="14">Aquisi&#231;&#227;o de Servi&#231;os Sociais e de Outros Servi&#231;os Espec&#237;ficos</option>
+															<option value="15">An&#250;ncio de Adjudica&#231;&#227;o de Aquisi&#231;&#227;o de Servi&#231;os Sociais e de Outros Servi&#231;os Espec&#237;ficos</option>
+															<option value="16">Concurso p&#250;blico simplificado</option>
+															<option value="17">Concurso limitado por pr&#233;via qualifica&#231;&#227;o simplificado</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="cpv2" data-toggle="tooltip" title="Pode pesquisar pelo c&#243;digo ou descri&#231;&#227;o do Vocabul&#225;rio Comum para os Contratos P&#250;blicos">CPV&nbsp;<span class="fal fa-info-circle"></span></label>
+													<input class="form-control" type="text" id="cpv2" name="cpv">
+												</div>
+												<div class="form-group">
+													<label for="desdeprecobase">Pre&#231;o base</label>
+													<div class="form-inline">
+														<div class="form-group">
+															<input class="form-control price mr-1" type="text" id="desdeprecobase" name="desdeprecobase" placeholder="Desde:">
+															<input class="form-control price" type="text" name="ateprecobase" placeholder="At&#233;:">
+														</div>
+													</div>
+												</div>
+												<div class="form-inline">
+													<div class="form-group col-xs-12 col-sm-6">
+														<input class="form-control" type="checkbox" id="ambientcriteria2" name="ambientcriteria">
+														<label for="ambientcriteria2">Crit&#233;rios ambientais</label>
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12 d-flex justify-content-end mt-2">
+												<button type="reset" class="btn btn-outline-primary b-search-advanced px-4">Limpar</button>
+												<button type="submit" id="search_anuncios2" class="btn btn-primary b-search-btn">Pesquisar</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="form_entidades" action="/Base4/pt/pesquisa/" method="get" style="display: none;">
+									<div class="d-flex flex-row">
+										<input type="hidden" name="type" value="entidades">
+										<div class="form-group d-flex flex-grow-1">
+											<input class="form-control b-i-search flex-fill" type="text" name="texto" placeholder="Pesquisar pelo NIPC, descri&#231;&#227;o ou pa&#237;s da entidade">
+										</div>
+										<button type="submit" id="search_entidades" class="btn btn-primary b-search-btn">Pesquisar</button>
+									</div>
+								</form>
+								<form id="form_incrementos" action="/Base4/pt/pesquisa/" method="get" style="display: none;">
+									<div class="d-flex flex-row">
+										<input type="hidden" name="type" value="incrementos">
+										<div class="form-group d-flex flex-grow-1">
+											<input class="form-control b-i-search flex-fill" type="text" name="texto" placeholder="Pesquisar pelo objeto do contrato">
+										</div>
+										<button type="submit" id="search_incrementos" class="btn btn-primary b-search-btn">Pesquisar</button>
+										<button type="button" id="advanced_incrementos" class="btn btn-outline-primary b-search-advanced">Pesquisa avan&#231;ada</button>
+									</div>
+									<div id="extra_incrementos" class="advanced_search" style="display: none;">
+										<div class="row">
+											<div class="col-sm-12">
+												<button type="button" id="close_incrementos" class="close" aria-label="Fechar"><span class="fal fa-times"></span></button>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-row">
+													<div class="form-group col-xs-12 col-sm-6">
+														<label for="adjudicante2" data-toggle="tooltip" title="Pode pesquisar pelo NIPC ou descri&#231;&#227;o da entidade">Entidade adjudicante&nbsp;<span class="fal fa-info-circle"></span></label>
+														<input class="form-control" type="text" id="adjudicante2" name="adjudicante">
+													</div>
+													<div class="form-group col-xs-12 col-sm-6">
+														<label for="adjudicataria2" data-toggle="tooltip" title="Pode pesquisar pelo NIPC ou descri&#231;&#227;o da entidade">Entidade adjudicat&#225;ria&nbsp;<span class="fal fa-info-circle"></span></label>
+														<input class="form-control" type="text" id="adjudicataria2" name="adjudicataria">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="sel_price2" data-toggle="tooltip" title="Pode pesquisar em simult&#226;neo pelos v&#225;rios intervalos de pre&#231;os">Pre&#231;os&nbsp;<span class="fal fa-info-circle"></span></label>
+													<select class="form-control" id="sel_price2" name="sel_price2">
+														<option value="price_21">Pre&#231;o contratual</option>
+														<option value="price_22">Pre&#231;o alterado</option>
+													</select>
+												</div>
+												<div class="form-inline mb-0">
+													<div id="price_21" class="form-group">
+														<input class="form-control price mr-1" type="text" name="desdeprecocontrato" autocomplete="off" placeholder="Desde:">
+														<input class="form-control price" type="text" name="ateprecocontrato" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-inline">
+													<div id="price_22" class="form-group mb-0" style="display: none;">
+														<input class="form-control price mr-1" type="text" name="desdeprecoalterado" autocomplete="off" placeholder="Desde:">
+														<input class="form-control price" type="text" name="ateprecoalterado" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="sel_date3" data-toggle="tooltip" title="Pode pesquisar em simult&#226;neo pelos v&#225;rios intervalos de datas">Datas&nbsp;<span class="fal fa-info-circle"></span></label>
+													<select class="form-control" id="sel_date3" name="sel_date3">
+														<option value="date_31">Data do contrato</option>
+														<option value="date_32">Data da modifica&#231;&#227;o</option>
+													</select>
+												</div>
+												<div class="form-inline mb-0">
+													<div id="date_31" class="form-group">
+														<input class="form-control date mr-1" type="text" name="desdedatacontrato" autocomplete="off" placeholder="Desde:">
+														<input class="form-control date" type="text" name="atedatacontrato" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+												<div class="form-inline">
+													<div id="date_32" class="form-group mb-0" style="display: none;">
+														<input class="form-control date mr-1" type="text" name="desdedatamodificacao" autocomplete="off" placeholder="Desde:">
+														<input class="form-control date" type="text" name="atedatamodificacao" autocomplete="off" placeholder="At&#233;:">
+													</div>
+												</div>
+											</div>
+											<div class="col-sm-12 d-flex justify-content-end mt-2">
+												<button type="reset" class="btn btn-outline-primary b-search-advanced px-4">Limpar</button>
+												<button type="submit" id="search_incrementos2" class="btn btn-primary b-search-btn">Pesquisar</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="form_bensmoveis" action="/Base4/pt/pesquisa/" method="get" style="display: none;">
+									<div class="d-flex flex-row">
+										<input type="hidden" name="type" value="bensmoveis">
+										<div class="form-group d-flex flex-grow-1">
+											<input class="form-control b-i-search flex-fill" type="text" name="texto" placeholder="Pesquisar pela descri&#231;&#227;o do bem m&#243;vel">
+										</div>
+										<button type="submit" id="search_bensmoveis" class="btn btn-primary b-search-btn">Pesquisar</button>
+									</div>
+								</form>
+								<form id="form_cnccs" action="/Base4/pt/pesquisa/" method="get" style="display: none;">
+									<div class="d-flex flex-row">
+										<input type="hidden" name="type" value="cnccs">
+										<div class="form-group d-flex flex-grow-1">
+											<input class="form-control b-i-search flex-fill" type="text" name="texto" placeholder="Pesquisar pelo objeto do procedimento">
+										</div>
+										<button type="submit" id="search_cnccs" class="btn btn-prim

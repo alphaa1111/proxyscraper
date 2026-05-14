@@ -1,0 +1,23 @@
+{
+  "processes": [],
+  "links": [
+    {
+      "type": "application/json",
+      "rel": "self",
+      "title": "This document as JSON",
+      "href": "https://ambiente.azores.gov.pt/idea-api/processes?f=json"
+    },
+    {
+      "type": "application/ld+json",
+      "rel": "alternate",
+      "title": "This document as RDF (JSON-LD)",
+      "href": "https://ambiente.azores.gov.pt/idea-api/processes?f=jsonld"
+    },
+    {
+      "type": "text/html",
+      "rel": "alternate",
+      "title": "This document as HTML",
+      "href": "https://ambiente.azores.gov.pt/idea-api/processes?f=html"
+    }
+  ]
+}

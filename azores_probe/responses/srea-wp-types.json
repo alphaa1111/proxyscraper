@@ -1,0 +1,743 @@
+{
+  "post": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Artigos",
+    "slug": "post",
+    "icon": "dashicons-admin-post",
+    "taxonomies": [
+      "category",
+      "post_tag",
+      "area",
+      "ilha"
+    ],
+    "rest_base": "posts",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v26.4 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>SREA - Destaques</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://srea.azores.gov.pt/destaques/\" />\n<meta property=\"og:locale\" content=\"pt_PT\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"SREA - Destaques\" />\n<meta property=\"og:url\" content=\"https://srea.azores.gov.pt/destaques/\" />\n<meta property=\"og:site_name\" content=\"SREA\" />\n<meta property=\"og:image\" content=\"https://srea.azores.gov.pt/wp-content/uploads/2025/09/calcada-acores.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1280\" />\n\t<meta property=\"og:image:height\" content=\"853\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"WebPage\",\"CollectionPage\"],\"@id\":\"https://srea.azores.gov.pt/destaques/\",\"url\":\"https://srea.azores.gov.pt/destaques/\",\"name\":\"SREA - Destaques\",\"isPartOf\":{\"@id\":\"https://srea.azores.gov.pt/#website\"},\"datePublished\":\"2025-09-03T13:25:56+00:00\",\"dateModified\":\"2025-11-27T11:16:21+00:00\",\"breadcrumb\":{\"@id\":\"https://srea.azores.gov.pt/destaques/#breadcrumb\"},\"inLanguage\":\"pt-PT\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://srea.azores.gov.pt/destaques/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https://srea.azores.gov.pt/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Destaques\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://srea.azores.gov.pt/#website\",\"url\":\"https://srea.azores.gov.pt/\",\"name\":\"SREA\",\"description\":\"Serviço Regional de Estatística dos Açores\",\"publisher\":{\"@id\":\"https://srea.azores.gov.pt/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://srea.azores.gov.pt/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"pt-PT\"},{\"@type\":\"Organization\",\"@id\":\"https://srea.azores.gov.pt/#organization\",\"name\":\"SREA\",\"url\":\"https://srea.azores.gov.pt/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"pt-PT\",\"@id\":\"https://srea.azores.gov.pt/#/schema/logo/image/\",\"url\":\"https://srea.azores.gov.pt/wp-content/uploads/2025/08/Logotipo-SREA.png\",\"contentUrl\":\"https://srea.azores.gov.pt/wp-content/uploads/2025/08/Logotipo-SREA.png\",\"width\":437,\"height\":242,\"caption\":\"SREA\"},\"image\":{\"@id\":\"https://srea.azores.gov.pt/#/schema/logo/image/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "SREA - Destaques",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://srea.azores.gov.pt/destaques/",
+      "og_locale": "pt_PT",
+      "og_type": "article",
+      "og_title": "SREA - Destaques",
+      "og_url": "https://srea.azores.gov.pt/destaques/",
+      "og_site_name": "SREA",
+      "og_image": [
+        {
+          "width": 1280,
+          "height": 853,
+          "url": "https://srea.azores.gov.pt/wp-content/uploads/2025/09/calcada-acores.jpg",
+          "type": "image/jpeg"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "WebPage",
+              "CollectionPage"
+            ],
+            "@id": "https://srea.azores.gov.pt/destaques/",
+            "url": "https://srea.azores.gov.pt/destaques/",
+            "name": "SREA - Destaques",
+            "isPartOf": {
+              "@id": "https://srea.azores.gov.pt/#website"
+            },
+            "datePublished": "2025-09-03T13:25:56+00:00",
+            "dateModified": "2025-11-27T11:16:21+00:00",
+            "breadcrumb": {
+              "@id": "https://srea.azores.gov.pt/destaques/#breadcrumb"
+            },
+            "inLanguage": "pt-PT"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://srea.azores.gov.pt/destaques/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://srea.azores.gov.pt/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Destaques"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://srea.azores.gov.pt/#website",
+            "url": "https://srea.azores.gov.pt/",
+            "name": "SREA",
+            "description": "Serviço Regional de Estatística dos Açores",
+            "publisher": {
+              "@id": "https://srea.azores.gov.pt/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://srea.azores.gov.pt/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "pt-PT"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://srea.azores.gov.pt/#organization",
+            "name": "SREA",
+            "url": "https://srea.azores.gov.pt/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "pt-PT",
+              "@id": "https://srea.azores.gov.pt/#/schema/logo/image/",
+              "url": "https://srea.azores.gov.pt/wp-content/uploads/2025/08/Logotipo-SREA.png",
+              "contentUrl": "https://srea.azores.gov.pt/wp-content/uploads/2025/08/Logotipo-SREA.png",
+              "width": 437,
+              "height": 242,
+              "caption": "SREA"
+            },
+            "image": {
+              "@id": "https://srea.azores.gov.pt/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/posts"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "page": {
+    "description": "",
+    "hierarchical": true,
+    "has_archive": false,
+    "name": "Páginas",
+    "slug": "page",
+    "icon": "dashicons-admin-page",
+    "taxonomies": [],
+    "rest_base": "pages",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "attachment": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Multimédia",
+    "slug": "attachment",
+    "icon": "dashicons-admin-media",
+    "taxonomies": [],
+    "rest_base": "media",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/media"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "nav_menu_item": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Items do menu de navegação",
+    "slug": "nav_menu_item",
+    "icon": null,
+    "taxonomies": [
+      "nav_menu"
+    ],
+    "rest_base": "menu-items",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/menu-items"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_block": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Padrões",
+    "slug": "wp_block",
+    "icon": null,
+    "taxonomies": [
+      "wp_pattern_category"
+    ],
+    "rest_base": "blocks",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/blocks"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_template": {
+    "description": "Modelos a incluir no tema.",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Modelos",
+    "slug": "wp_template",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "templates",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/templates"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_template_part": {
+    "description": "Partes de modelo para incluir nos seus modelos.",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Partes de modelo",
+    "slug": "wp_template_part",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "template-parts",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/template-parts"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_global_styles": {
+    "description": "Estilos globais a incluir nos temas.",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Estilos globais",
+    "slug": "wp_global_styles",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "global-styles",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/global-styles"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_navigation": {
+    "description": "Menus de navegação que podem ser inseridos no seu site.",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Menus de navegação",
+    "slug": "wp_navigation",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "navigation",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/navigation"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_font_family": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Famílias tipográficas",
+    "slug": "wp_font_family",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "font-families",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/font-families"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_font_face": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Tipos de letra",
+    "slug": "wp_font_face",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "font-families/(?P<font_family_id>[\\d]+)/font-faces",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/font-families/(?P<font_family_id>[\\d]+)/font-faces"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "e-floating-buttons": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Floating Elements",
+    "slug": "e-floating-buttons",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "e-floating-buttons",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/e-floating-buttons"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "elementor_library": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Os meus modelos",
+    "slug": "elementor_library",
+    "icon": "dashicons-admin-page",
+    "taxonomies": [],
+    "rest_base": "elementor_library",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/elementor_library"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "elementor_snippet": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Custom Code",
+    "slug": "elementor_snippet",
+    "icon": null,
+    "taxonomies": [],
+    "rest_base": "elementor_snippet",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/elementor_snippet"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "indicador": {
+    "description": "",
+    "hierarchical": true,
+    "has_archive": false,
+    "name": "Indicadores",
+    "slug": "indicador",
+    "icon": "dashicons-dashboard",
+    "taxonomies": [
+      "area",
+      "ilha"
+    ],
+    "rest_base": "indicador",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/indicador"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "publicacao": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Publicações",
+    "slug": "publicacao",
+    "icon": "dashicons-media-document",
+    "taxonomies": [
+      "tipologia_publicacao"
+    ],
+    "rest_base": "publicacao",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/publicacao"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "documento": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Documentos",
+    "slug": "documento",
+    "icon": "dashicons-media-document",
+    "taxonomies": [
+      "area",
+      "ilha",
+      "tipologia_documento"
+    ],
+    "rest_base": "documento",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/documento"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "relatorio": {
+    "description": "",
+    "hierarchical": false,
+    "has_archive": false,
+    "name": "Relatórios",
+    "slug": "relatorio",
+    "icon": "dashicons-media-document",
+    "taxonomies": [
+      "area",
+      "ilha"
+    ],
+    "rest_base": "relatorio",
+    "rest_namespace": "wp/v2",
+    "template": [],
+    "template_lock": false,
+    "yoast_head": null,
+    "yoast_head_json": null,
+    "_links": {
+      "collection": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/types"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://srea.azores.gov.pt/wp-json/wp/v2/relatorio"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+}
