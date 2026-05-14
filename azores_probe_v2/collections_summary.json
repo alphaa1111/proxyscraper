@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "Acudes",
+    "title": "Açudes - Região Autónoma dos Açores",
+    "description": "Informação referente aos açudes existentes nas ilhas da RAA (Faial, Flores, Terceira, Pico, São Jorge e São Miguel).",
+    "item_type": "feature",
+    "keywords": [
+      "acudes",
+      "pra",
+      "damorweir",
+      "observação da terra e do ambiente",
+      "hidrografia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Acudes/items?f=json"
+  },
+  {
+    "id": "Acudes_PIC",
+    "title": "Açudes TESTE - Região Autónoma dos Açores",
+    "description": "Informação referente aos açudes existentes no faial.",
+    "item_type": "feature",
+    "keywords": [
+      "acudes",
+      "pra",
+      "damorweir",
+      "observação da terra e do ambiente",
+      "hidrografia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Acudes_PIC/items?f=json"
+  },
+  {
+    "id": "AreasGestao_RecursosMinerais",
+    "title": "Áreas de Gestão de Recursos Minerais - Região Autónoma dos Açores",
+    "description": "Informação produzida no âmbito do Projeto GEOAVALIA - Prospeção e Avaliação de Recursos Minerais dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "áreas de gestão de recursos minerais",
+      "ambiente",
+      "zonas de gestão/restrição/regulamentação e unidades de referência",
+      "recursos minerais"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/AreasGestao_RecursosMinerais/items?f=json"
+  },
+  {
+    "id": "BaciasHidrograficas",
+    "title": "Bacias Hidrográficas - Região Autónoma dos Açores",
+    "description": "Delimitação das Bacias Hidrográficas da Região Autónoma dos Açores foi produzida no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "bacias hidrograficas",
+      "pra",
+      "riverbasin",
+      "observação da terra e do ambiente",
+      "hidrografia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/BaciasHidrograficas/items?f=json"
+  },
+  {
+    "id": "Biotopos_Corine",
+    "title": "Biótopos Corine - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida no âmbito da elaboração do Plano Regional de Ordenamento do Território para a Região Autónoma dos Açores (PROTA).",
+    "item_type": "feature",
+    "keywords": [
+      "biótopos",
+      "corine",
+      "ambiente",
+      "habitats e biótopos",
+      "observação da terra e do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Biotopos_Corine/items?f=json"
+  },
+  {
+    "id": "Capacidade_UsoSolo",
+    "title": "Capacidade de Uso do Solo (PROTA) - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida no âmbito da elaboração do Plano Regional de Ordenamento do Território para a Região Autónoma dos Açores (PROTA).",
+    "item_type": "feature",
+    "keywords": [
+      "uso do solo",
+      "solo",
+      "ambiente",
+      "observação da terra e do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Capacidade_UsoSolo/items?f=json"
+  },
+  {
+    "id": "Captacao_Superficial_pt",
+    "title": "Captação Superficial (ponto) - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores, publicado através do Decreto Legislativo Regional n.º 19/2003/A, de 23 de Abril.",
+    "item_type": "feature",
+    "keywords": [
+      "captações de água de superfície",
+      "serviços de utilidade pública e do estado",
+      "observação da terra e do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Captacao_Superficial_pt/items?f=json"
+  },
+  {
+    "id": "Captacao_Superficial_pg",
+    "title": "Captação Superficial (polígono) - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores, publicado através do Decreto Legislativo Regional n.º 19/2003/A, de 23 de Abril.",
+    "item_type": "feature",
+    "keywords": [
+      "captações de água de superfície",
+      "serviços de utilidade pública e do estado",
+      "observação da terra e do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Captacao_Superficial_pg/items?f=json"
+  },
+  {
+    "id": "Centrais_Electricas",
+    "title": "Centrais Elétricas - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 5 000 tendo como base o catálogo de centrais elétricas da Região Autónoma dos Açores disponível no sítio da internet do Museu da Electricidade.",
+    "item_type": "feature",
+    "keywords": [
+      "centrais eléctricas",
+      "serviços de utilidade pública e do estado"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Centrais_Electricas/items?f=json"
+  },
+  {
+    "id": "Cosa2007",
+    "title": "Carta de Ocupação do Solo de 2007 - Região Autónoma dos Açores",
+    "description": "Carta de Ocupação do Solo de 2007 da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "cosa2007",
+      "cosa",
+      "ocupação do solo"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Cosa2007/items?f=json"
+  },
+  {
+    "id": "Cosa2018_n1",
+    "title": "Carta de Ocupação do Solo de 2018 (Nível 1) - Região Autónoma dos Açores",
+    "description": "Nível 1 da Carta de Ocupação do Solo de 2018 da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "cosa2018",
+      "cosa",
+      "ocupação do solo",
+      "nível 1"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Cosa2018_n1/items?f=json"
+  },
+  {
+    "id": "Cosa2018_n2",
+    "title": "Carta de Ocupação do Solo de 2018 (Nível 2) da Região Autónoma dos Açores",
+    "description": "Nível 2 da Carta de Ocupação do Solo de 2018 da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "cosa2018",
+      "cosa",
+      "ocupação do solo",
+      "nível 2"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Cosa2018_n2/items?f=json"
+  },
+  {
+    "id": "Cosa2018_n3",
+    "title": "Carta de Ocupação do Solo de 2018 (Nível 3) da Região Autónoma dos Açores",
+    "description": "Nível 3 da Carta de Ocupação do Solo de 2018 da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "cosa2018",
+      "cosa",
+      "ocupação do solo",
+      "nível 3"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Cosa2018_n3/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_GalgamentosInundacoesRisco",
+    "title": "Cartografia de Riscos Naturais - Áreas de Risco de Galgamentos e/ou Inundações Costeiras (Risco) - Região Autónoma dos Açores",
+    "description": "Dados geográficos produzidos no âmbito dos projetos de elaboração de \"Cartografia de Pormenor de Risco de Galgamentos e/ou Inundações Costeiras nas áreas edificadas dos concelhos da Lagoa, Povoação, N",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "galgamentos",
+      "inundações",
+      "risco",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_GalgamentosInundacoesRisco/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_GalgamentosInundacoesVulnerabilidade",
+    "title": "Cartografia de Riscos Naturais - Áreas de Risco de Galgamentos e/ou Inundações Costeiras (Vulnerabilidade) - Região Autónoma dos Açores",
+    "description": "Dados geográficos produzidos no âmbito dos projetos de elaboração de \"Cartografia de Pormenor de Risco de Galgamentos e/ou Inundações Costeiras nas áreas edificadas dos concelhos da Lagoa, Povoação, N",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "galgamentos",
+      "inundações",
+      "vulnerabilidade",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_GalgamentosInundacoesVulnerabilidade/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_Inundacoes",
+    "title": "Cartografia de Riscos Naturais - Áreas de Risco Potencial Significativo de Inundações - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito da “Elaboração da reavaliação dos riscos de inundações na Região Hidrográfica dos Açores – 2º ciclo de planeamento”, com vista ao cumprimento de uma sequência de proced",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "inundações",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_Inundacoes/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_EmanacoesGasosasPermanentes_Concentracao",
+    "title": "Cartografia de Riscos Naturais - Suscetibilidade à ocorrência de Emanações Gasosas Permanentes (Concentração) - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Avaliação de perigos geológicos e delimitação de áreas vulneráveis a considerar em termos de riscos no ordenamento do território da RAA”.",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "emanações gasosas",
+      "concentração",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_EmanacoesGasosasPermanentes_Concentracao/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_EmanacoesGasosasPermanentes_Fluxo",
+    "title": "Cartografia de Riscos Naturais - Suscetibilidade à ocorrência de Emanações Gasosas Permanentes (Fluxo) - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Avaliação de perigos geológicos e delimitação de áreas vulneráveis a considerar em termos de riscos no ordenamento do território da RAA”.",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "emanações gasosas",
+      "fluxo",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_EmanacoesGasosasPermanentes_Fluxo/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_EmanacoesGasosasPermanentes_TemperaturaSolo",
+    "title": "Cartografia de Riscos Naturais - Suscetibilidade à ocorrência de Emanações Gasosas Permanentes (Temperatura Solo) - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Avaliação de perigos geológicos e delimitação de áreas vulneráveis a considerar em termos de riscos no ordenamento do território da RAA”.",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "emanações gasosas",
+      "temperatura do solo",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_EmanacoesGasosasPermanentes_TemperaturaSolo/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_EmanacoesGasosasPermanentes_Gases",
+    "title": "Cartografia de Riscos Naturais - Suscetibilidade à ocorrência de Emanações Gasosas Permanentes (Áreas de Desgaseificação) - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Avaliação de perigos geológicos e delimitação de áreas vulneráveis a considerar em termos de riscos no ordenamento do território da RAA”.",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "emanações gasosas",
+      "desgaseificação",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_EmanacoesGasosasPermanentes_Gases/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_EmanacoesGasosasPermanentes_GasesFumarolas",
+    "title": "Cartografia de Riscos Naturais - Suscetibilidade à ocorrência de Emanações Gasosas Permanentes (Localização de Fumarolas) - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Avaliação de perigos geológicos e delimitação de áreas vulneráveis a considerar em termos de riscos no ordenamento do território da RAA”.",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "emanações gasosas",
+      "fumarolas",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_EmanacoesGasosasPermanentes_GasesFumarolas/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_MovimentosVertente",
+    "title": "Cartografia de Riscos Naturais - Suscetibilidade à ocorrência de Movimentos de Vertente - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Avaliação de perigos geológicos e delimitação de áreas vulneráveis a considerar em termos de riscos no ordenamento do território da RAA”.",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "movimentos de vertente",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_MovimentosVertente/items?f=json"
+  },
+  {
+    "id": "CartografiaRiscos_ZonasAmeacadasMar",
+    "title": "Cartografia de Riscos Naturais - Zonas Ameaçadas pelo Mar - Região Autónoma dos Açores",
+    "description": "Cartografia elaborada no âmbito do estudo “Reserva Ecológica Regional – Caracterização dos Perigos em termos dos Recursos Naturais e delimitação das respetivas Áreas Vulneráveis a considerar no Ordena",
+    "item_type": "feature",
+    "keywords": [
+      "riscos naturais",
+      "zonas ameaçadas pelo mar",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/CartografiaRiscos_ZonasAmeacadasMar/items?f=json"
+  },
+  {
+    "id": "Combustiveis",
+    "title": "Depósitos de Combustíveis - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores, publicado através do Decreto Legislativo Regional n.º 19/2003/A, de 23 de Abril. ",
+    "item_type": "feature",
+    "keywords": [
+      "combustiveis",
+      "depósitos de combustiveis",
+      "instalações industriais e de produção"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Combustiveis/items?f=json"
+  },
+  {
+    "id": "Escorregamentos_OrlaCosteira_FLO",
+    "title": "Escorregamentos da orla costeira da ilha das Flores - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida no âmbito do projecto GEMAS - Localização e Distribuição de Areias em redor das ilhas de São Miguel, Pico, Faial e Flores, que teve como intuito obter conhecimento mais ",
+    "item_type": "feature",
+    "keywords": [
+      "escorregamentos",
+      "orla costeira",
+      "ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Escorregamentos_OrlaCosteira_FLO/items?f=json"
+  },
+  {
+    "id": "EspessuraSedimentos_OrlaCosteira_PIC_FAI_SMG",
+    "title": "Espessura de sedimentos da orla costeira da ilha do Pico, Faial e São Miguel - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida no âmbito do projecto GEMAS - Localização e Distribuição de Areias em redor das ilhas de São Miguel, Pico, Faial e Flores, que teve como intuito obter conhecimento mais ",
+    "item_type": "feature",
+    "keywords": [
+      "espessura de sedimentos",
+      "orla costeira",
+      "ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/EspessuraSedimentos_OrlaCosteira_PIC_FAI_SMG/items?f=json"
+  },
+  {
+    "id": "Extracao_Inertes",
+    "title": "Extração de Inertes",
+    "description": "Serviço de visualização com os locais de Extração de Inertes dos Açores.",
+    "item_type": "?",
+    "keywords": [
+      "Extração",
+      "Inertes",
+      "Açores"
+    ],
+    "covers_terceira": true,
+    "feature_count": null
+  },
+  {
+    "id": "Falhas_Geologicas",
+    "title": "Falhas Geológicas - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores, publicado através do Decreto Legislativo Regional n.º 19/2003/A, de 23 de Abril.",
+    "item_type": "feature",
+    "keywords": [
+      "falhas geológicas",
+      "ambiente",
+      "geologia",
+      "zonas de risco natural"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Falhas_Geologicas/items?f=json"
+  },
+  {
+    "id": "Farois",
+    "title": "Faróis - Região Autónoma dos Açores",
+    "description": "A georeferenciação dos faróis do Arquipélago dos Açores consistiu na vetorização dos elementos de sinalização marítima constantes dos Planos de Ordenamento da Orla Costeira e foi apoiada pela fotointe",
+    "item_type": "feature",
+    "keywords": [
+      "faróis",
+      "infraestruturas portuárias",
+      "sinalização portuária",
+      "redes de transporte"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Farois/items?f=json"
+  },
+  {
+    "id": "Furos",
+    "title": "Furos de Abastecimento Público - Região Autónoma dos Açores",
+    "description": "Cartografia produzida no âmbito do Inventário Nacional de Sistemas de Abastecimento de Água e de Águas Residuais (INSAAR).",
+    "item_type": "feature",
+    "keywords": [
+      "furos",
+      "sistemas de abastecimento público",
+      "geologia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Furos/items?f=json"
+  },
+  {
+    "id": "Furos_outros",
+    "title": "Furos (Outros) - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1:25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "furos",
+      "sistemas de abastecimento público",
+      "geologia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Furos_outros/items?f=json"
+  },
+  {
+    "id": "Geositios",
+    "title": "Geossítios - Região Autónoma dos Açores",
+    "description": "Limites dos geossítios da Região Autónoma dos Açores. O Geoparque Açores agrupa os geossítios das nove ilhas, incluindo ainda duas áreas marinhas.",
+    "item_type": "feature",
+    "keywords": [
+      "geossitios",
+      "ambiente",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Geositios/items?f=json"
+  },
+  {
+    "id": "GranulometriaSedimentos_OrlaCosteira_FLO",
+    "title": "Granulometria de sedimentos da orla costeira da ilha das Flores - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida no âmbito do projecto GEMAS - Localização e Distribuição de Areias em redor das ilhas de São Miguel, Pico, Faial e Flores, que teve como intuito obter conhecimento mais ",
+    "item_type": "feature",
+    "keywords": [
+      "granulometria de sedimentos",
+      "orla costeira",
+      "ambiente"
+    ],
+    "covers_terceira": false,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/GranulometriaSedimentos_OrlaCosteira_FLO/items?f=json"
+  },
+  {
+    "id": "InfraestruturasProcessamentoResiduos",
+    "title": "Infraestruturas de Processamento de Resíduos - Região Autónoma dos Açores",
+    "description": "Infraestruturas de Processamento de Resíduos existentes na Região Autónoma dos Açores, tendo por base a informação constante do Programa Estratégico de Prevenção e Gestão de Resíduos dos Açores (PEPGR",
+    "item_type": "feature",
+    "keywords": [
+      "infraestrtuturas",
+      "processamento de resíduos",
+      "ambiente",
+      "resíduos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/InfraestruturasProcessamentoResiduos/items?f=json"
+  },
+  {
+    "id": "Lagoas",
+    "title": "Lagoas - Região Autónoma dos Açores",
+    "description": "Lagoas existentes nas ilhas do Corvo, Faial, Flores, Pico, São Jorge, Terceira e São Miguel.",
+    "item_type": "feature",
+    "keywords": [
+      "lagoas",
+      "ambiente",
+      "hidrografia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Lagoas/items?f=json"
+  },
+  {
+    "id": "LixeirasSeladas",
+    "title": "Lixeiras Seladas - Região Autónoma dos Açores",
+    "description": "Lixeiras Seladas existentes na Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "lixeiras seladas",
+      "ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/LixeirasSeladas/items?f=json"
+  },
+  {
+    "id": "MassasAgua_Subterranea",
+    "title": "Massas de Água Subterrâneas - Região Autónoma dos Açores (RAA)",
+    "description": "Estado das Massas de Água Subterrâneas que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da Diretiva Quadro da Água (DQA).",
+    "item_type": "feature",
+    "keywords": [
+      "águas subterrâneas",
+      "diretiva-quadro da água",
+      "pgrh",
+      "zonas de gestão/restrição/regulamentação"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/MassasAgua_Subterranea/items?f=json"
+  },
+  {
+    "id": "MassasAgua_SuperficiaisCosteiras",
+    "title": "Massas de Água Superficiais - Costeiras - Região Autónoma dos Açores (RAA)",
+    "description": "Estado das Massas de Água Superficiais - Costeiras que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da Diretiva Quadro da Água (DQA).",
+    "item_type": "feature",
+    "keywords": [
+      "águas costeiras",
+      "águas costeiras monitorizadas",
+      "diretiva-quadro da água",
+      "pgrh",
+      "zonas de gestão/restrição/regulamentação"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/MassasAgua_SuperficiaisCosteiras/items?f=json"
+  },
+  {
+    "id": "MassasAgua_SuperficiaisLagoas",
+    "title": "Massas de Água Superficiais - Lagoas - Região Autónoma dos Açores (RAA)",
+    "description": "Estado das Massas de Água Superficiais - Lagoas que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da Diretiva Quadro da Água (DQA).",
+    "item_type": "feature",
+    "keywords": [
+      "águas superficiais",
+      "lagoas monitorizadas",
+      "lagoas",
+      "diretiva-quadro da água",
+      "pgrh",
+      "zonas de gestão/restrição/regulamentação"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/MassasAgua_SuperficiaisLagoas/items?f=json"
+  },
+  {
+    "id": "MassasAgua_SuperficiaisRibeiras",
+    "title": "Massas de Água Superficiais - Ribeiras - Região Autónoma dos Açores (RAA)",
+    "description": "Estado das Massas de Água Superficiais - Ribeiras que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da Diretiva Quadro da Água (DQA).",
+    "item_type": "feature",
+    "keywords": [
+      "águas superficiais",
+      "ribeiras monitorizadas",
+      "ribeiras",
+      "diretiva-quadro da água",
+      "pgrh",
+      "zonas de gestão/restrição/regulamentação"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/MassasAgua_SuperficiaisRibeiras/items?f=json"
+  },
+  {
+    "id": "MassasAgua_Transicao",
+    "title": "Massas de Água de Transição (Diretiva-Quadro da Água)  - Ribeiras - Região Autónoma dos Açores (RAA)",
+    "description": "Massas de Água de Transição que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da Diretiva Quadro da Água (DQA).",
+    "item_type": "feature",
+    "keywords": [
+      "massas de água",
+      "diretiva-quadro da água",
+      "pgrh",
+      "zonas de gestão/restrição/regulamentação"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/MassasAgua_Transicao/items?f=json"
+  },
+  {
+    "id": "Nascentes_AbastecimentoPublico",
+    "title": "Nascentes de Abastecimento Público - Região Autónoma dos Açores",
+    "description": "Cartografia produzida no âmbito do Inventário Nacional de Sistemas de Abastecimento de Água e de Águas Residuais (INSAAR).",
+    "item_type": "feature",
+    "keywords": [
+      "nascentes",
+      "sistemas de abastecimento público",
+      "geologia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Nascentes_AbastecimentoPublico/items?f=json"
+  },
+  {
+    "id": "Nascentes_Outras",
+    "title": "Nascentes (Outras) - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1:25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "nascentes",
+      "sistemas de abastecimento público",
+      "geologia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Nascentes_Outras/items?f=json"
+  },
+  {
+    "id": "Operadores_GestaoResiduos",
+    "title": "Operadores de Gestão de Resíduos (OGR) - Região Autónoma dos Açores",
+    "description": "Instalações dos Operadores de Gestão de Resíduos (OGR) existentes na Região Autónoma dos Açores, tendo por base a listagem constante do Sistema Regional de Informação sobre Resíduos (SRIR).",
+    "item_type": "feature",
+    "keywords": [
+      "gestão de resíduos",
+      "ogr",
+      "ambiente",
+      "resíduos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Operadores_GestaoResiduos/items?f=json"
+  },
+  {
+    "id": "Ortofoto_2008_COR",
+    "title": "Ortofotos 40 cm - ilha do Corvo (2008)",
+    "description": "Ortofotomapas de 40 cm da ilha do Corvo, resultantes dos voos aerofotogramétricos de 2008 executados pela DSCIG, com resolução espacial de 0,4 m e qualidade posicional de 1 m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Corvo",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2004_FAI",
+    "title": "Ortofotos 40 cm - ilha do Faial (2004/2005/2007)",
+    "description": "Ortofotomapas de 40 cm, resultantes dos voos aerofotogramétricos de 2004, 2005 e 2007 executados pelo IFAP, através do protocolo com a DSCIG, com resolução espacial de 0,4 m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Faial",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortoimagem_2004_FLO",
+    "title": "Ortoimagens 60 cm - ilha das Flores (2004)",
+    "description": "Ortoimagens de 60 cm da ilha das Flores, obtida através do satélite QUICKBIRD com pixel de 60 cm.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Flores",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2007_GRA",
+    "title": "Ortofotos 40 cm - ilha Graciosa (2007)",
+    "description": "Ortofotomapas de 40 cms da ilha Graciosa, resultantes dos voos aerofotogramétricos de 2007 executados pelo IFAP, através do protocolo com a DSCIG, com resolução espacial de 0,4 m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Graciosa",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2007_PIC",
+    "title": "Ortofotos 40 cm - ilha do Pico (2007)",
+    "description": "Ortofotomapas de 40 cm da ilha do Pico, resultantes dos voos aerofotogramétricos de 2007 executados pelo IFAP, através do protocolo com a DSCIG, com resolução espacial de 0,4 m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Pico",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2007_SJO",
+    "title": "Ortofotos 40 cm - ilha de São Jorge (2004/2005)",
+    "description": "Ortofotomapas de 40 cm da ilha de São Jorge, resultantes dos voos aerofotogramétricos de 2004 e 2005 executado pelo IFAP, através do protocolo com a DSCIG, com pixel 0,4m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "São Jorge",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2004_SMG",
+    "title": "Ortofotos 40 cm - ilha de São Miguel (2004/2005)",
+    "description": "Ortofotomapas de 40 cm da ilha de São Miguel, resultantes dos voos aerofotogramétricos de 2004 e 2005 executados pelo IFAP, através do protocolo com a DSCIG, com resolução espacial de 0,4 m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "São Miguel",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2004_TER",
+    "title": "Ortofotos 40 cm - ilha Terceira (2004)",
+    "description": "Ortofotomapas de 40 cms da ilha Terceira, resultantes do voo aerofotogramétrico de 2004 executado pela DSCIG, com pixel de 0,4m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Terceira",
+      "Açores"
+    ],
+    "covers_terceira": true,
+    "feature_count": null
+  },
+  {
+    "id": "Ortofoto_2005_SMA",
+    "title": "Ortofotos 40 cm - ilha de Santa Maria (2005)",
+    "description": "Ortofotomapas de 40 cm da ilha de Santa Maria, resultantes dos voos aerofotogramétricos de 2005 executados pelo IFAP, através do protocolo com a DSCIG, com resolução espacial de 0,4 m.",
+    "item_type": "?",
+    "keywords": [
+      "Ortofoto",
+      "Santa Maria",
+      "Açores"
+    ],
+    "covers_terceira": false,
+    "feature_count": null
+  },
+  {
+    "id": "Parques_NaturaisIlha",
+    "title": "Parques Naturais de Ilha - Região Autónoma dos Açores",
+    "description": "Parques Naturais de Ilha existentes no Arquipélago dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "parque natural de ilha",
+      "rede regional de áreas protegidas",
+      "IUCN",
+      "áreas terrestres",
+      "áreas marinhas",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Parques_NaturaisIlha/items?f=json"
+  },
+  {
+    "id": "Pocos_Geotermicos",
+    "title": "Poços Geotérmicos existentes na ilha São Miguel - Região Autónoma dos Açores",
+    "description": "Poços Geotérmicos existentes na ilha São Miguel.",
+    "item_type": "feature",
+    "keywords": [
+      "poços geotérmicos",
+      "geologia"
+    ],
+    "covers_terceira": false,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Pocos_Geotermicos/items?f=json"
+  },
+  {
+    "id": "PontosMonitorizacao_EstadoMassasAguaSubterranea",
+    "title": "Pontos de Monitorização do Estado das Massas de Água Subterrânea (PGRH - RH9 / DQA) - Região Autónoma dos Açores (RAA)",
+    "description": "Informação da localização/pontos de recolha de amostras das massas de águas subterrâneas que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da",
+    "item_type": "feature",
+    "keywords": [
+      "águas subterrâneas monitorizadas",
+      "diretiva-quadro da água",
+      "instalações de monitorização do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/PontosMonitorizacao_EstadoMassasAguaSubterranea/items?f=json"
+  },
+  {
+    "id": "PontosMonitorizacao_EstadoMassasAguaSuperficiais",
+    "title": "Pontos de Monitorização do Estado das Massas de Água Superficial (PGRH - RH9 / DQA) - Região Autónoma dos Açores (RAA)",
+    "description": "Informação da localização/pontos de recolha de amostras das massas de águas superficiais que integram a Região Hidrográfica dos Açores (RH9), reportadas à Comissão Europeia no âmbito das obrigações da",
+    "item_type": "feature",
+    "keywords": [
+      "águas costeiras monitorizadas",
+      "lagoas monitorizadas",
+      "ribeiras monitorizadas",
+      "diretiva-quadro da água",
+      "instalações de monitorização do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/PontosMonitorizacao_EstadoMassasAguaSuperficiais/items?f=json"
+  },
+  {
+    "id": "Aguas_CosteirasProfundas",
+    "title": "Profundidade das Águas Costeiras - Região Autónoma dos Açores (RAA)",
+    "description": "Cartografia produzida no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "águas costeiras",
+      "profundidade"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Aguas_CosteirasProfundas/items?f=json"
+  },
+  {
+    "id": "Rede_Hidrometeorologica",
+    "title": "Rede Hidrometeorológica - Região Autónoma dos Açores (RAA)",
+    "description": "Monitorização do ciclo hidrológico do arquipélago dos Açores através de uma rede de postos udométricos, meteorológicos e de estações hidrométricas.",
+    "item_type": "feature",
+    "keywords": [
+      "elementos climáticos",
+      "estações hidrométricas",
+      "postos meteorológicos",
+      "postos udométricos",
+      "estações limnigráficas",
+      "rede hidrometeorológica",
+      "profundidade",
+      "instalações de monitorização do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Rede_Hidrometeorologica/items?f=json"
+  },
+  {
+    "id": "RedeMonitorizacao_QualidadeAr",
+    "title": "Rede de Monitorização da Qualidade do Ar - Região Autónoma dos Açores (RAA)",
+    "description": "Estações de Monitorização da Qualidade do Ar da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "estações da qualidade do ar",
+      "qualidade do ar",
+      "estações",
+      "instalações de monitorização do ambiente"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/RedeMonitorizacao_QualidadeAr/items?f=json"
+  },
+  {
+    "id": "Reservas_Biosfera",
+    "title": "Reservas da Biosfera das ilhas do Corvo, Graciosa, Flores e São Jorge - Região Autónoma dos Açores",
+    "description": "Limite das Reservas da Biosfera das ilhas do Corvo, Graciosa, Flores e São Jorge.",
+    "item_type": "feature",
+    "keywords": [
+      "reserva da biosfera",
+      "zona núcleo",
+      "zona de transição",
+      "zona tampão",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Reservas_Biosfera/items?f=json"
+  },
+  {
+    "id": "Sistemas_Aquiferos",
+    "title": "Sistemas Aquíferos - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "sistema aquifero",
+      "águas subterrâneas",
+      "recursos hídricos",
+      "pra"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Sistemas_Aquiferos/items?f=json"
+  },
+  {
+    "id": "Sitios_InteresseComunitaria",
+    "title": "Sítios de Importância Comunitária - Região Autónoma dos Açores",
+    "description": "Delimitação dos Sítios de Importância Comunitária (SIC) da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "sic",
+      "sítio de interesse comunitária",
+      "rede natura 2000",
+      "campo hidrotermal",
+      "fontes hidrotermais",
+      "águas profundas",
+      "natura 2000 sites",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Sitios_InteresseComunitaria/items?f=json"
+  },
+  {
+    "id": "Sitios_RAMSAR",
+    "title": "Sítios RAMSAR - Região Autónoma dos Açores",
+    "description": "Limite dos sítios Ramsar da RAA, constituídos pelos seguintes recursos Ramsar Boundaries, Ramsar Wetland Types e Ramsar Wetland Types Ln, designados a 16 de junho de 2008.",
+    "item_type": "feature",
+    "keywords": [
+      "ramsar",
+      "convenção ramsar",
+      "conservação da natureza",
+      "zonas húmidas",
+      "ramsar boundaries",
+      "ramsar wetland types",
+      "biodiversidade",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Sitios_RAMSAR/items?f=json"
+  },
+  {
+    "id": "Substrato_Costeiro",
+    "title": "Substrato Costeiro - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1: 25 000 no âmbito da elaboração do Plano Regional da Água (PRA) dos Açores, publicado através do Decreto Legislativo Regional n.º 19/2003/A, de 23 de Abril.",
+    "item_type": "feature",
+    "keywords": [
+      "substrato costeiro",
+      "observcação da terra e do ambiente",
+      "geologia"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Substrato_Costeiro/items?f=json"
+  },
+  {
+    "id": "Zonas_EspeciaisConservacao",
+    "title": "Zonas Especiais de Conservação (ZEC) - Região Autónoma dos Açores",
+    "description": "Delimitação das Zonas Especiais de Conservação (ZEC) da Região Autónoma dos Açores (RAA). Cartografia vetorial relativa aos limites dos sítios da Rede Natura 2000 do arquipélago dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "zec",
+      "zona especial de conservação",
+      "rede natura 2000",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Zonas_EspeciaisConservacao/items?f=json"
+  },
+  {
+    "id": "Zona_ProtecaoEspecial",
+    "title": "Zonas de Proteção Especial (ZPE)  - Região Autónoma dos Açores",
+    "description": "Delimitação das Zonas de Proteção Especial da Região Autónoma dos Açores. Cartografia vetorial relativa aos limites dos sítios da Rede Natura 2000 do arquipélago dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "zpe",
+      "zona de proteção especial",
+      "rede natura 2000",
+      "sítios protegidos"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Zona_ProtecaoEspecial/items?f=json"
+  },
+  {
+    "id": "ZonasProtecao_AlargadaCaptacoes",
+    "title": "Zonas de Proteção Alargada às Captações - Região Autónoma dos Açores",
+    "description": "Cartografia produzida no âmbito dos trabalhos de delimitação dos perímetros de proteção de captações de águas subterrâneas para as ilhas da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "captação de águas subterrâneas",
+      "perímetros de proteção",
+      "aha",
+      "furos",
+      "nascentes",
+      "zonas de proteção alargada às captações",
+      "zonas de gestão/restrição/regulamentação e unidades de referência"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/ZonasProtecao_AlargadaCaptacoes/items?f=json"
+  },
+  {
+    "id": "ZonasProtecao_ImediataCaptacoes",
+    "title": "Zonas de Proteção Imediata às Captações - Região Autónoma dos Açores",
+    "description": "Cartografia produzida no âmbito dos trabalhos de delimitação dos perímetros de proteção de captações de águas subterrâneas para as ilhas da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "captação de águas subterrâneas",
+      "perímetros de proteção",
+      "aha",
+      "furos",
+      "nascentes",
+      "zonas de proteção imediata às captações",
+      "zonas de gestão/restrição/regulamentação e unidades de referência"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/ZonasProtecao_ImediataCaptacoes/items?f=json"
+  },
+  {
+    "id": "ZonasProtecao_IntermediaCaptacoes",
+    "title": "Zonas de Proteção Intermédia às Captações - Região Autónoma dos Açores",
+    "description": "Cartografia produzida no âmbito dos trabalhos de delimitação dos perímetros de proteção de captações de águas subterrâneas para as ilhas da Região Autónoma dos Açores.",
+    "item_type": "feature",
+    "keywords": [
+      "captação de águas subterrâneas",
+      "perímetros de proteção",
+      "aha",
+      "furos",
+      "nascentes",
+      "zonas de proteção intermédia às captações",
+      "zonas de gestão/restrição/regulamentação e unidades de referência"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/ZonasProtecao_IntermediaCaptacoes/items?f=json"
+  },
+  {
+    "id": "ZonasRocha_Orlacosteira_FLO",
+    "title": "Zonas de Rocha da Orla Costeira da ilha das Flores - Região Autónoma dos Açores",
+    "description": "Cartografia vectorial produzida no âmbito do projecto GEMAS - Localização e Distribuição de Areias em redor das ilhas de São Miguel, Pico, Faial e Flores, que teve como intuito obter conhecimento mais",
+    "item_type": "feature",
+    "keywords": [
+      "zonas de rocha",
+      "orla costeira",
+      "geologia"
+    ],
+    "covers_terceira": false,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/ZonasRocha_Orlacosteira_FLO/items?f=json"
+  },
+  {
+    "id": "Zonas_Vulneraveis",
+    "title": "Zonas Vulneráveis das ilhas das Flores, Pico e São Miguel - Região Autónoma dos Açores",
+    "description": "Cartografia vetorial produzida à escala 1 : 25 000 no âmbito da delimitação geográfica das zonas vulneráveis identificadas na Portaria n.º 1037/97, de 1 de Outubro, que aprovou a lista e a carta que i",
+    "item_type": "feature",
+    "keywords": [
+      "zonas vulneráveis",
+      "nitrates vulnerable zones (Nitrates Directive)",
+      "zonas de gestão/restrição/regulamentação e unidades de referência"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/Zonas_Vulneraveis/items?f=json"
+  },
+  {
+    "id": "gdps-temperature",
+    "title": "Global Deterministic Prediction System sample",
+    "description": "Global Deterministic Prediction System sample",
+    "item_type": "?",
+    "keywords": [
+      "gdps",
+      "global"
+    ],
+    "covers_terceira": true,
+    "feature_count": null
+  },
+  {
+    "id": "sma",
+    "title": "SMA",
+    "description": "OGC API que permite a descoberta e acesso a metadados registados no Sistema de Metadados dos Açores - SMA.",
+    "item_type": "record",
+    "keywords": [
+      "Metadados",
+      "Catálogo",
+      "SMA",
+      "Açores"
+    ],
+    "covers_terceira": true,
+    "feature_count": null,
+    "items_url": "https://ambiente.azores.gov.pt/idea-api/collections/sma/items?f=json"
+  }
+]
