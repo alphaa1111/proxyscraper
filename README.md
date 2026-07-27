@@ -29,6 +29,14 @@ go build socks.go
 ./socks
 ```
 
+## Auto-updated lists
+A workflow scrapes both sources every 30 minutes and force-pushes the results to the
+`proxies` branch, which always holds exactly one commit, fetch the latest lists directly:
+```sh
+curl -O https://raw.githubusercontent.com/reservedbytes/proxyscraper/proxies/http.txt
+curl -O https://raw.githubusercontent.com/reservedbytes/proxyscraper/proxies/socks.txt
+```
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
