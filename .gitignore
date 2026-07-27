@@ -1,0 +1,8 @@
+# scraper output, published to the proxies branch by CI
+http.txt
+socks.txt
+proxies/
+
+# compiled binaries
+/http
+/socks

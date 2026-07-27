@@ -1,48 +1,55 @@
-name: Run Proxies
+name: Update proxies
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-proxies
+  cancel-in-progress: false
 
 jobs:
-  run-proxies:
+  update-proxies:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+    - name: Checkout source
+      uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
-        go-version: '1.20' 
+        go-version: 'stable'
 
-    - name: Create proxies directory
-      run: mkdir -p proxies
-
-    - name: Run http.go
-      run: go run http.go
-
-    - name: Move http proxies to proxies directory
-      run: mv http.txt ./proxies/http.txt
-
-    - name: Run socks.go
-      run: go run socks.go
-    
-    - name: Move socks proxies to proxies directory
-      run: mv socks.txt ./proxies/socks.txt
-
-    - name: Configure Git
+    - name: Scrape proxies
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "GitHub Actions Bot"
+        go run http.go
+        go run socks.go
 
-    - name: Commit and push changes
+    - name: Check the scrapers produced something
       run: |
-        git add proxies/http.txt proxies/socks.txt
-        git commit -m "update proxies" || echo "Nothing to commit"
-        git push
+        for f in http.txt socks.txt; do
+          if [ ! -s "$f" ]; then
+            echo "::error::$f is missing or empty, refusing to publish"
+            exit 1
+          fi
+        done
+
+    - name: Publish to the proxies branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        mkdir -p out
+        mv http.txt socks.txt out/
+        cd out
+        git init -q -b proxies
+        git config user.name "GitHub Actions Bot"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add http.txt socks.txt
+        git commit -q -m "update proxies"
+        git push -q --force \
+          "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" proxies
