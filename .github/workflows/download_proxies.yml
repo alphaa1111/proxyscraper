@@ -26,13 +26,11 @@ jobs:
         go-version: 'stable'
 
     - name: Scrape proxies
-      run: |
-        go run http.go
-        go run socks.go
+      run: go run . -o out
 
     - name: Check the scrapers produced something
       run: |
-        for f in http.txt socks.txt; do
+        for f in out/http.txt out/socks.txt; do
           if [ ! -s "$f" ]; then
             echo "::error::$f is missing or empty, refusing to publish"
             exit 1
@@ -43,8 +41,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        mkdir -p out
-        mv http.txt socks.txt out/
         cd out
         git init -q -b proxies
         git config user.name "GitHub Actions Bot"
